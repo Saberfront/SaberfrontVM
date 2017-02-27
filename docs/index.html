@@ -1,0 +1,1223 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Reference</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/all.js"></script>
+
+
+          <script>
+        $(function() {
+            setupLanguages(["bash","javascript"]);
+        });
+      </script>
+      </head>
+
+  <body class="">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+        <img src="images/logo.png" />
+                    <div class="lang-selector">
+                                  <a href="#" data-language-name="bash">bash</a>
+                                  <a href="#" data-language-name="javascript">javascript</a>
+                            </div>
+                            <div class="search">
+              <input type="text" class="search" id="input-search" placeholder="Search">
+            </div>
+            <ul class="search-results"></ul>
+              <div id="toc">
+      </div>
+                    <ul class="toc-footer">
+                                  <li><a href='http://github.com/mpociot/documentarian'>Documentation Powered by Documentarian</a></li>
+                            </ul>
+            </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+          <!-- START_INFO -->
+<h1>Info</h1>
+<p>Welcome to the generated API reference.
+<a href="http://0.0.0.0/docs/collection.json">Get Postman Collection</a></p>
+<!-- END_INFO -->
+<h1>Messages</h1>
+<!-- START_e7e66262bc1dbae90b2755ba6562aae8 -->
+<h2>Creates a new message thread.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/messages/create" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/messages/create",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET messages/create</code></p>
+<p><code>HEAD messages/create</code></p>
+<!-- END_e7e66262bc1dbae90b2755ba6562aae8 -->
+<!-- START_edaf19f4085713e0e1149ca773a830e6 -->
+<h2>Shows a message thread.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/messages/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/messages/{id}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET messages/{id}</code></p>
+<p><code>HEAD messages/{id}</code></p>
+<!-- END_edaf19f4085713e0e1149ca773a830e6 -->
+<!-- START_5418ee46bcd65a23d9f3ab147eaa548a -->
+<h2>Adds a new message to a current thread.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X PUT "http://0.0.0.0/saberfrontdb2/messages/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/messages/{id}",
+    "method": "PUT",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>PUT messages/{id}</code></p>
+<!-- END_5418ee46bcd65a23d9f3ab147eaa548a -->
+<h1>general</h1>
+<!-- START_0acce8c4b6cee0c0863dccdc913b0ce5 -->
+<h2>_debugbar/open</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/_debugbar/open" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/_debugbar/open",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET _debugbar/open</code></p>
+<p><code>HEAD _debugbar/open</code></p>
+<!-- END_0acce8c4b6cee0c0863dccdc913b0ce5 -->
+<!-- START_5f5807046c0317783733a24f83f5a2a5 -->
+<h2>Return Clockwork output</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/_debugbar/clockwork/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/_debugbar/clockwork/{id}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET _debugbar/clockwork/{id}</code></p>
+<p><code>HEAD _debugbar/clockwork/{id}</code></p>
+<!-- END_5f5807046c0317783733a24f83f5a2a5 -->
+<!-- START_2f9359e2dcdcc380f3e8a2bec1b66599 -->
+<h2>Return the stylesheets for the Debugbar</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/_debugbar/assets/stylesheets" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/_debugbar/assets/stylesheets",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET _debugbar/assets/stylesheets</code></p>
+<p><code>HEAD _debugbar/assets/stylesheets</code></p>
+<!-- END_2f9359e2dcdcc380f3e8a2bec1b66599 -->
+<!-- START_c18b6bc464bab9bc47e059bb494bba0c -->
+<h2>Return the javascript for the Debugbar</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/_debugbar/assets/javascript" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/_debugbar/assets/javascript",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET _debugbar/assets/javascript</code></p>
+<p><code>HEAD _debugbar/assets/javascript</code></p>
+<!-- END_c18b6bc464bab9bc47e059bb494bba0c -->
+<!-- START_57011a4e29c6bc1cfec9270de49657bf -->
+<h2>Authorize a client to access the user&#039;s account.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/oauth/authorize" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/authorize",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET oauth/authorize</code></p>
+<p><code>HEAD oauth/authorize</code></p>
+<!-- END_57011a4e29c6bc1cfec9270de49657bf -->
+<!-- START_e48cc6a0b45dd21b7076ab2c03908687 -->
+<h2>Approve the authorization request.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/oauth/authorize" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/authorize",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST oauth/authorize</code></p>
+<!-- END_e48cc6a0b45dd21b7076ab2c03908687 -->
+<!-- START_de5d7581ef1275fce2a229b6b6eaad9c -->
+<h2>Deny the authorization request.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://0.0.0.0/saberfrontdb2/oauth/authorize" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/authorize",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE oauth/authorize</code></p>
+<!-- END_de5d7581ef1275fce2a229b6b6eaad9c -->
+<!-- START_a09d20357336aa979ecd8e3972ac9168 -->
+<h2>Authorize a client to access the user&#039;s account.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/oauth/token" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/token",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST oauth/token</code></p>
+<!-- END_a09d20357336aa979ecd8e3972ac9168 -->
+<!-- START_e96d5ebaecbbcd30089fa499c8d21792 -->
+<h2>Get all of the authorized tokens for the authenticated user.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/oauth/tokens" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/tokens",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET oauth/tokens</code></p>
+<p><code>HEAD oauth/tokens</code></p>
+<!-- END_e96d5ebaecbbcd30089fa499c8d21792 -->
+<!-- START_a9a802c25737cca5324125e5f60b72a5 -->
+<h2>Delete the given token.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://0.0.0.0/saberfrontdb2/oauth/tokens/{token_id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/tokens/{token_id}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE oauth/tokens/{token_id}</code></p>
+<!-- END_a9a802c25737cca5324125e5f60b72a5 -->
+<!-- START_abe905e69f5d002aa7d26f433676d623 -->
+<h2>Get a fresh transient token cookie for the authenticated user.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/oauth/token/refresh" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/token/refresh",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST oauth/token/refresh</code></p>
+<!-- END_abe905e69f5d002aa7d26f433676d623 -->
+<!-- START_258e7e83c3ea28db7720e63d358b33ff -->
+<h2>Get all of the clients for the authenticated user.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/oauth/clients" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/clients",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET oauth/clients</code></p>
+<p><code>HEAD oauth/clients</code></p>
+<!-- END_258e7e83c3ea28db7720e63d358b33ff -->
+<!-- START_9eabf8d6e4ab449c24c503fcb42fba82 -->
+<h2>Store a new client.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/oauth/clients" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/clients",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST oauth/clients</code></p>
+<!-- END_9eabf8d6e4ab449c24c503fcb42fba82 -->
+<!-- START_784aec390a455073fc7464335c1defa1 -->
+<h2>Update the given client.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X PUT "http://0.0.0.0/saberfrontdb2/oauth/clients/{client_id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/clients/{client_id}",
+    "method": "PUT",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>PUT oauth/clients/{client_id}</code></p>
+<!-- END_784aec390a455073fc7464335c1defa1 -->
+<!-- START_1f65a511dd86ba0541d7ba13ca57e364 -->
+<h2>Delete the given client.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://0.0.0.0/saberfrontdb2/oauth/clients/{client_id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/clients/{client_id}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE oauth/clients/{client_id}</code></p>
+<!-- END_1f65a511dd86ba0541d7ba13ca57e364 -->
+<!-- START_6eec11382f34d0f08c826d2813b02d04 -->
+<h2>Get all of the available scopes for the application.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/oauth/scopes" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/scopes",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET oauth/scopes</code></p>
+<p><code>HEAD oauth/scopes</code></p>
+<!-- END_6eec11382f34d0f08c826d2813b02d04 -->
+<!-- START_b4c3e68afae3c4de78758b62c49ac9a9 -->
+<h2>Get all of the personal access tokens for the authenticated user.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/oauth/personal-access-tokens" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/personal-access-tokens",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET oauth/personal-access-tokens</code></p>
+<p><code>HEAD oauth/personal-access-tokens</code></p>
+<!-- END_b4c3e68afae3c4de78758b62c49ac9a9 -->
+<!-- START_a8dd9c0a5583742e671711f9bb3ee406 -->
+<h2>Create a new personal access token for the user.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/oauth/personal-access-tokens" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/personal-access-tokens",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST oauth/personal-access-tokens</code></p>
+<!-- END_a8dd9c0a5583742e671711f9bb3ee406 -->
+<!-- START_bae65df80fd9d72a01439241a9ea20d0 -->
+<h2>Delete the given token.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://0.0.0.0/saberfrontdb2/oauth/personal-access-tokens/{token_id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/oauth/personal-access-tokens/{token_id}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE oauth/personal-access-tokens/{token_id}</code></p>
+<!-- END_bae65df80fd9d72a01439241a9ea20d0 -->
+<!-- START_003e21d791de26c3b2eb48a7e484f364 -->
+<h2>api/inventories</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/api/inventories" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api/inventories",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/inventories</code></p>
+<p><code>HEAD api/inventories</code></p>
+<!-- END_003e21d791de26c3b2eb48a7e484f364 -->
+<!-- START_961d22af5e80fd5f11e7725d7e066a69 -->
+<h2>api/inventory/{id}</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/api/inventory/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api/inventory/{id}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/inventory/{id}</code></p>
+<p><code>HEAD api/inventory/{id}</code></p>
+<!-- END_961d22af5e80fd5f11e7725d7e066a69 -->
+<!-- START_9591459742ca02faa1eca7d11d03c3fd -->
+<h2>api/inventory/{id}</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://0.0.0.0/saberfrontdb2/api/inventory/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api/inventory/{id}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE api/inventory/{id}</code></p>
+<!-- END_9591459742ca02faa1eca7d11d03c3fd -->
+<!-- START_9289bb08b4ddbd1789151a65b084501f -->
+<h2>api/inventory</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/api/inventory" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api/inventory",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/inventory</code></p>
+<!-- END_9289bb08b4ddbd1789151a65b084501f -->
+<!-- START_f9bb43b2d406a133a7646f806a34310b -->
+<h2>Display the form to request a password reset link.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/password/reset" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/password/reset",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET password/reset</code></p>
+<p><code>HEAD password/reset</code></p>
+<!-- END_f9bb43b2d406a133a7646f806a34310b -->
+<!-- START_feb40f06a93c80d742181b6ffb6b734e -->
+<h2>Send a reset link to the given user.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/password/email" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/password/email",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST password/email</code></p>
+<!-- END_feb40f06a93c80d742181b6ffb6b734e -->
+<!-- START_5a0014b83f352dff4e16558b63bfd23e -->
+<h2>Display the password reset view for the given token.</h2>
+<p>If no token is present, display the link request form.</p>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/password/reset/{token}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/password/reset/{token}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET password/reset/{token}</code></p>
+<p><code>HEAD password/reset/{token}</code></p>
+<!-- END_5a0014b83f352dff4e16558b63bfd23e -->
+<!-- START_cafb407b7a846b31491f97719bb15aef -->
+<h2>Reset the given user&#039;s password.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/password/reset" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/password/reset",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST password/reset</code></p>
+<!-- END_cafb407b7a846b31491f97719bb15aef -->
+<!-- START_c849d8d398c06c47842040149a029b8e -->
+<h2>register/verify/{token}</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/register/verify/{token}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/register/verify/{token}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET register/verify/{token}</code></p>
+<p><code>HEAD register/verify/{token}</code></p>
+<!-- END_c849d8d398c06c47842040149a029b8e -->
+<!-- START_20271aec7d8000fc57e8ef3c2e893ac9 -->
+<h2>Display the specified resource.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/regimentAttributes/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/regimentAttributes/{id}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET regimentAttributes/{id}</code></p>
+<p><code>HEAD regimentAttributes/{id}</code></p>
+<!-- END_20271aec7d8000fc57e8ef3c2e893ac9 -->
+<!-- START_b05798982c18f8892429acc38029f50b -->
+<h2>inventory/{id}</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/inventory/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/inventory/{id}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET inventory/{id}</code></p>
+<p><code>HEAD inventory/{id}</code></p>
+<!-- END_b05798982c18f8892429acc38029f50b -->
+<!-- START_1561fb08d6d74aa0d99921b38a6ef6cd -->
+<h2>Show the application dashboard.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/developer/dash" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/developer/dash",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET developer/dash</code></p>
+<p><code>HEAD developer/dash</code></p>
+<!-- END_1561fb08d6d74aa0d99921b38a6ef6cd -->
+<!-- START_3e148f918990fc2200a50b096c663c2f -->
+<h2>Display list of all available routes.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/api-tester/routes/index" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/routes/index",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api-tester/routes/index</code></p>
+<!-- END_3e148f918990fc2200a50b096c663c2f -->
+<!-- START_47d513f9bf3906dc835a55f9574f4aae -->
+<h2>api-tester/requests/index</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/api-tester/requests/index" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/requests/index",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api-tester/requests/index</code></p>
+<!-- END_47d513f9bf3906dc835a55f9574f4aae -->
+<!-- START_e53bcfad7f64084e0fc53bdd493b030c -->
+<h2>api-tester/requests/store</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/api-tester/requests/store" \
+-H "Accept: application/json" \
+    -d "method"="HEAD" \
+    -d "path"="tempora" \
+    -d "headers"="tempora" \
+    -d "body"="tempora" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/requests/store",
+    "method": "POST",
+    "data": {
+        "method": "HEAD",
+        "path": "tempora",
+        "headers": "tempora",
+        "body": "tempora"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api-tester/requests/store</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>method</td>
+<td>string</td>
+<td>required</td>
+<td><code>GET</code>, <code>HEAD</code>, <code>POST</code>, <code>PUT</code>, <code>PATCH</code> or <code>DELETE</code></td>
+</tr>
+<tr>
+<td>path</td>
+<td>string</td>
+<td>required</td>
+</tr>
+<tr>
+<td>headers</td>
+<td>array</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>body</td>
+<td>string</td>
+<td>optional</td>
+</tr>
+</tbody>
+</table>
+<!-- END_e53bcfad7f64084e0fc53bdd493b030c -->
+<!-- START_e4587a0bf8f5e65a54ebaa46faa08ff3 -->
+<h2>api-tester/requests/update</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/api-tester/requests/update" \
+-H "Accept: application/json" \
+    -d "id"="repellendus" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/requests/update",
+    "method": "POST",
+    "data": {
+        "id": "repellendus"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api-tester/requests/update</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>string</td>
+<td>required</td>
+</tr>
+</tbody>
+</table>
+<!-- END_e4587a0bf8f5e65a54ebaa46faa08ff3 -->
+<!-- START_09de70e56f9914aded02eea4fcd6b3a8 -->
+<h2>api-tester/requests/destroy</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://0.0.0.0/saberfrontdb2/api-tester/requests/destroy" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/requests/destroy",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api-tester/requests/destroy</code></p>
+<!-- END_09de70e56f9914aded02eea4fcd6b3a8 -->
+<!-- START_61448ae0f48abc74a1f0fcc2b38640e3 -->
+<h2>api-tester/assets/fonts/{_file}</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/api-tester/assets/fonts/{_file}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/assets/fonts/{_file}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api-tester/assets/fonts/{_file}</code></p>
+<p><code>HEAD api-tester/assets/fonts/{_file}</code></p>
+<!-- END_61448ae0f48abc74a1f0fcc2b38640e3 -->
+<!-- START_efa868e4add5bf75fe73b492dd03d929 -->
+<h2>api-tester/assets/img/{_file}</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/api-tester/assets/img/{_file}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/assets/img/{_file}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api-tester/assets/img/{_file}</code></p>
+<p><code>HEAD api-tester/assets/img/{_file}</code></p>
+<!-- END_efa868e4add5bf75fe73b492dd03d929 -->
+<!-- START_9ab834de6daa80432d0c6a3bfa3b41bd -->
+<h2>api-tester/assets/{_file}</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://0.0.0.0/saberfrontdb2/api-tester/assets/{_file}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://0.0.0.0/saberfrontdb2/api-tester/assets/{_file}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api-tester/assets/{_file}</code></p>
+<p><code>HEAD api-tester/assets/{_file}</code></p>
+<!-- END_9ab834de6daa80432d0c6a3bfa3b41bd -->
+      </div>
+      <div class="dark-box">
+                        <div class="lang-selector">
+                                    <a href="#" data-language-name="bash">bash</a>
+                                    <a href="#" data-language-name="javascript">javascript</a>
+                              </div>
+                </div>
+    </div>
+  </body>
+</html>
