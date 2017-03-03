@@ -8,10 +8,10 @@
     }
 </style>
 
-<template id="client">
+<template >
     <div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
+        <div class="box box-info">
+            <div class="box-heading">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <span>
                         OAuth Clients
@@ -23,7 +23,7 @@
                 </div>
             </div>
 
-            <div class="panel-body">
+            <div class="box-body">
                 <!-- Current Clients -->
                 <p class="m-b-none" v-if="clients.length === 0">
                     You have not created any OAuth clients.

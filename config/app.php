@@ -1,5 +1,4 @@
 <?php
-
 return [
 
     /*
@@ -51,7 +50,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://0.0.0.0/saberfrontdb2'),
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +63,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/New_York',
 
     /*
     |--------------------------------------------------------------------------
@@ -184,8 +183,9 @@ return [
          Mpociot\ApiDoc\ApiDocGeneratorServiceProvider::class,
          Asvae\ApiTester\ServiceProvider::class,
          Silber\Bouncer\BouncerServiceProvider::class,
-         
-    Hootlex\Friendships\FriendshipsServiceProvider::class,
+        Conner\Likeable\LikeableServiceProvider::class,    Hootlex\Friendships\FriendshipsServiceProvider::class,
+        NotificationChannels\Discord\DiscordServiceProvider::class,
+
         ],
 
     /*

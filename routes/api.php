@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-
+use App\User;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,15 +13,22 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+Route::get('/user', function (Request $request) {
     return $request->user();
 });
 // get list of tasks
-Route::get('inventories','SecondaryInventoryController@index')->middleware('scope:manage_secondary_inventories');
+Route::get('/inventory/all','SecondaryInventoryController@index')->middleware('scope:manage_secondary_inventories');
+
 // get specific task
-Route::get('inventory/{id}','SecondaryInventoryController@show')->middleware('scope:manage_secondary_inventories');
-// delete a task
+Route::get('inventory/{id}','SecondaryInventoryController@show');
 Route::delete('inventory/{id}','SecondaryInventoryController@destroy');
 // update existing task
 
-Route::post('inventory','SecondaryInventoryController@store')->middleware('scope:manage_secondary_inventories');
+Route::post('inventory','SecondaryInventoryController@store');
+
+Route::get('/users/{id}/loadouts/{loadoutid}','LoadoutController@apiShow')->middleware('scope:manage_loadouts');
+Route::get('/users/{userid}/loadouts/{loadoutid}','LoadoutController@apiShowWithRID')->middleware('scope:manage_loadouts');
+Route::get('/user/getByRID/{RID}',function($RID){
+    return json_encode(array("id" => User::where("robloxUserId",$RID)->get()[0]->id));
+
+});

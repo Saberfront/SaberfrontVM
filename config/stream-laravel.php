@@ -9,8 +9,8 @@ return [
     |
     */
 
-    'api_key' => '6u8uhvskmx77',
-    'api_secret' => 'd77xzhdb7445n3bnsz47j2fzbmhyjafdmq5yjweeuvfjj9x7328t59hjrrr3f3wt',
+    'api_key' => '8eswube8uzsg',
+    'api_secret' => 'rwqu2sjcn468b4r7rjntqcsffx8qjhg3w4rnadus3ecnsmeqfk9b8hyfyekhnw65',
     'api_app_id' => '22050',
     /*
     |-----------------------------------------------------------------------------

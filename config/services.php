@@ -13,7 +13,9 @@ return [
     | to have a conventional place to find your various credentials.
     |
     */
-
+'discord' => [
+    'token' => 'Mjc5ODY2OTgxNTYwMzUyNzY5.C5oiGw.lB2xSjm9xJgmHEn7NbR46jSATiA',
+],
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),

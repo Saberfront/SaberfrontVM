@@ -14,10 +14,12 @@
         "doctrine/dbal": "^2.5",
         "ellipsesynergie/api-response": "^0.12.3",
         "get-stream/stream-laravel": "^2.2",
+        "graham-campbell/markdown": "^7.1",
         "guzzlehttp/guzzle": "^6.2",
         "hootlex/laravel-friendships": "^1.0",
         "hootlex/laravel-moderation": "^1.0",
         "illuminate/html": "^5.0",
+        "laravel-notification-channels/discord": "^0.0.1",
         "laravel/framework": "5.4.*",
         "laravel/passport": "^2.0",
         "laravel/scout": "^3.0",
@@ -25,8 +27,10 @@
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4",
         "mpociot/laravel-apidoc-generator": "^2.0",
+        "namshi/jose": "^7.2",
         "nesbot/carbon": "^1.22",
         "pusher/pusher-php-server": "^2.6",
+        "rtconner/laravel-likeable": "~1.2",
         "silber/bouncer": "v1.0.0-beta.2"
     },
     "require-dev": {

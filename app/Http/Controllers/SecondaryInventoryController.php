@@ -22,9 +22,11 @@ class SecondaryInventoryController extends Controller
     public function index()
     {
         //Get all task
+
         $inventory = SecondaryInventory::paginate(15);
         // Return a collection of $task with pagination
         return $this->response->withPaginator($inventory, new  SecondaryInventoryTransformer());
+
     }
  
     public function show($id)

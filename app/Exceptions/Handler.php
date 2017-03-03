@@ -14,7 +14,6 @@ class Handler extends ExceptionHandler
      * @var array
      */
     protected $dontReport = [
-        \Illuminate\Auth\AuthenticationException::class,
         \Illuminate\Auth\Access\AuthorizationException::class,
         \Symfony\Component\HttpKernel\Exception\HttpException::class,
         \Illuminate\Database\Eloquent\ModelNotFoundException::class,
@@ -53,14 +52,17 @@ class Handler extends ExceptionHandler
         } elseif ($e instanceof AuthorizationException) {
             $e = new HttpException(403, $e->getMessage());
         } elseif ($e instanceof ValidationException && $e->getResponse()) {
-            return $e->getResponse();
-        }
+       return $this->convertValidationExceptionToResponse($e, $request);
+           }
 
         if ($this->isHttpException($e)) {
             return $this->toIlluminateResponse($this->renderHttpException($e), $e);
         } else {
             return $this->toIlluminateResponse($this->convertExceptionToResponse($e), $e);
         }
+
+
+   return parent::render($request, $exception);
     }
     /**
      * Convert an authentication exception into an unauthenticated response.

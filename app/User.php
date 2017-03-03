@@ -18,9 +18,10 @@ use Cmgmyr\Messenger\Models\Participant;
 use Cmgmyr\Messenger\Models\Thread;
 class User extends Authenticatable
 {
+    use HasApiTokens;
+
     use Notifiable;
     use CanResetPassword;
-    use HasApiTokens;
     use Searchable;
     use ActivityTrait;
     use Messagable;
@@ -38,10 +39,31 @@ class User extends Authenticatable
     {
         return 'users_index';
     }
-   
+   protected $primaryKey = 'id';
     public function followers()
 {
     return $this->belongsToMany('App\User', 'followers', 'follow_id', 'user_id')->withTimestamps();
+}
+public function loadouts(){
+    return $this->hasMany('App\CustomLoadout','rid','robloxUserId');
+}
+
+    public function routeNotificationForDiscord()
+    {
+        return $this->discord_channel;
+    }
+public function owns($dt, $dat){
+    $result = null;
+    switch ($dt) {
+        case 'loadout':
+                $result = in_array($dat, $this->loadouts()->get()->all());
+            break;
+        
+        default:
+            return null;
+            break;
+    }
+    return $result;
 }
  public function toSearchableArray()
     {

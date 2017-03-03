@@ -15,6 +15,12 @@ class CreateCustomLoadoutsTable extends Migration
     {
         Schema::create('loadouts', function (Blueprint $table) {
             $table->increments('id');
+            $table->string("weapon_name");
+            $table->string("secondary_name");
+            $table->string("loadout_name");
+            $table->integer("rid");
+            $table->boolean("public");
+            
             $table->timestamps();
         });
     }

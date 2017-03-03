@@ -2,10 +2,11 @@
 
 namespace App\Providers;
 use Bouncer;
+use Carbon\Carbon;
 use Laravel\Passport\Passport;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-
+use Schema;
 class AuthServiceProvider extends ServiceProvider
 {
     /**
@@ -26,12 +27,17 @@ class AuthServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->registerPolicies();
-        Passport::routes();
-Passport::enableImplicitGrant();
+        Passport::routes(); 
+   
+   Passport::tokensExpireIn(Carbon::now()->addDays(15));
+   Passport::refreshTokensExpireIn(Carbon::now()->addDays(30));
+        Passport::pruneRevokedTokens(); //basic garbage collector
 Passport::tokensCan([
     'manage_secondary_inventories' => 'View and Manage Secondary Inventories',
+    'manage_loadouts' => 'View, use, and modify Saberfront loadouts.'
 ]);
+if(Schema::hasTable('abilities')){
 Bouncer::allow('admin')->to('ban-users');
-        //
+}
     }
 }

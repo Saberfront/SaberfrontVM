@@ -24,7 +24,7 @@ class RegisterController extends Controller
     | provide this functionality without requiring any additional code.
     |
     */
-
+    
     use RegistersUsers;
 
     /**
@@ -90,7 +90,9 @@ class RegisterController extends Controller
             'email_token' => str_random(10),
             'tankInventoryId' => $si->id,
         ]);
-        
+        if ($user->id == 1){
+                        Bouncer::assign('admin')->to($user);
+}
         return $user;
     }
 
@@ -98,7 +100,7 @@ class RegisterController extends Controller
 {
     // The verified method has been added to the user model and chained here
     // for better readability
-    User::where('email_token',$token)->firstOrFail()->verified();
+    //User::where('email_token',$token)->firstOrFail()->verified();
     return redirect('login');
 }
 }

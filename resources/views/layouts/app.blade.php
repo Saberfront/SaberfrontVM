@@ -1,4 +1,11 @@
+@php
+use App\CustomLoadout;
+if (Auth::user()){
+$notification_feed = FeedManager::getNotificationFeed(Auth::user()->id);
 
+$nfeed = array($notification_feed);
+}
+@endphp
 <!DOCTYPE html>
 
 <html lang="{{ config('app.locale') }}">
@@ -11,10 +18,11 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Saberfront DB2') }}</title>
-
+  
     <!-- Styles -->
                 <script src="{{ asset('plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
 
+                <script src="{{ asset('js/jquery.toolbar.js') }}"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
@@ -25,15 +33,36 @@
         <link href="{{ asset('css/skins/_all-skins.css') }}" rel="stylesheet">
         <script src="{{ asset('js/chartjs-plugin-annotations.min.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
- 
+
+         <script src="{{ asset('plugins/select2/select2.full.min.js') }}"></script>
+
+
+            <link href="{{ asset('plugins/select2/select2.min.css') }}" rel="stylesheet">
+             <link href="{{ asset('css/alt/AdminLTE-select2.min.css') }}" rel="stylesheet">
+            <link href="{{ asset('js/jquery.toolbar.css') }}" rel="stylesheet">
+
 
     <!-- Scripts -->
     <script>
         window.Laravel = {!! json_encode([
             'csrfToken' => csrf_token(),
         ]) !!};
-        
+        // Global jQuery jobs
+$(function(){
+
+   $(".weaponSelector").select2({
+     placeholder: "Select your weapon of choice",
+     allowClear: true,
+     minimumResultsForSearch: 2
+   });
+   @if(Request::is('loadouts/delete/*'))
+     $(".deleteLoadout").modal();
+   
+   @endif
+});
+
     </script>
+    @yield('css')
 </head>
 @if (Auth::guest())
 <body class="hold-transition login-page">
@@ -42,7 +71,7 @@
 @endif
     <div class='wrapper' id="app">
     @if (Auth::guest())
-        You are not authorized
+
     @else
     <header class="main-header">
        <a href="{{ url('/') }}" class="logo">
@@ -71,7 +100,27 @@
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
                         @else
-
+ <li class="dropdown notifications-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bell-o"></i>
+            <span class="label label-warning">10</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="header">You have 10 notifications</li>
+            <li>
+              <!-- inner menu: contains the actual data -->
+              <ul class="menu">
+                <li>
+                  <a href="#">
+                    <i class="ion ion-ios-people info"></i> {{ json_encode($nfeed) }}
+                  </a>
+                </li>
+                ...
+              </ul>
+            </li>
+            <li class="footer"><a href="#">View all</a></li>
+          </ul>
+        </li>
                          <li class="dropdown messages-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <i class="fa fa-envelope-o"></i>
@@ -131,7 +180,7 @@
             <!-- Menu Footer-->
             <li class="user-footer">
               <div class="pull-left">
-                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                <a href="{{ url('/users/' . Auth::user()->id)}}" class="btn btn-default btn-flat">Profile</a>
               </div>
               <div class="pull-right">
                  <a href="{{ route('logout') }}" class='btn btn-default btn-flat'
@@ -167,17 +216,26 @@
         <a href="#"><i class="fa fa-circle text-success"></i>{{ Auth::user()->active ? "Online - Active" : "Online - Inactive"}}</a>
       </div>
     </div><!-- /.user-panel -->
-
+    
     <!-- Search Form (Optional) -->
     <form action="{{ url('/users/search')}}" method="get" class="sidebar-form">
+                     
       <div class="input-group">
-        <input type="text" name="q" class="form-control" placeholder="Search...">
+        <input type="text" name="q" class="form-control" placeholder="Search Users...">
         <span class="input-group-btn">
           <button type="submit"  id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
         </span>
       </div>
     </form><!-- /.sidebar-form -->
-
+    <form action="{{ url('/loadouts/search')}}" method="get" class="sidebar-form">
+                     
+      <div class="input-group">
+        <input type="text" name="q" class="form-control" placeholder="Search Loadouts...">
+        <span class="input-group-btn">
+          <button type="submit"  id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+        </span>
+      </div>
+    </form><!-- /.sidebar-form -->
     <!-- Sidebar Menu -->
     <ul class="sidebar-menu">
       <li class="header">HEADER</li>
@@ -190,7 +248,7 @@
         <ul class="treeview-menu">
       <li class="active"><a href="{{ url('/regimentAttributes') }}"><i class="fa fa-star-o"></i><span>All Regiment Attributes</span></a><</li>
       <li><a href="{{ url('/inventories') }}"><i class="ion ion-ios-pricetag-outline"></i><span>Secondary Inventories</span></a></li>
-            <li><a href="developer/dash"><i class="fa fa-code"></i><span>Developer Dashboard</span></a></li>
+            <li><a href="{{ url('developer/dash') }}"><i class="fa fa-code"></i><span>Developer Dashboard</span></a></li>
 
         </ul>
       </li>
@@ -199,6 +257,7 @@
         <a href="#"><i class="fa fa-unlock-alt" aria-hidden="true"></i><span>User Interfaces</span> <i class="fa fa-angle-left pull-right"></i></a>
         <ul class="treeview-menu">
       <li class="active"><a href="{{ url('/regimentAttributes') }}"><i class="fa fa-star-o"></i><span>My Regiment's Attributes.</span></a><</li>
+
       <li><a href="{{ url('/inventory/' . Auth::user()->tankInventoryId) }}"><i class="ion ion-ios-pricetag-outline"></i><span>Secondary Inventories</span></a></li>
         </ul>
       </li>
@@ -212,9 +271,12 @@
 
         @yield('content')
          @if (!Auth::guest())
+        
         <footer class="main-footer">
   <div class="pull-right hidden-xs">
+
           <b>Version</b> 1.0a
+
         </div>
         <strong>Copyright &copy; 2017 Saberfront Studios.</strong> All rights reserved.
 </footer>
@@ -232,6 +294,6 @@
         <script src="{{ asset('js/app-jq.js') }}"></script>
                 <script src="{{ asset('js/app.js') }}"></script>
         <script src="{{ asset('js/app.min.js') }}"></script>
-
+@yield('js')
 </body>
 </html>

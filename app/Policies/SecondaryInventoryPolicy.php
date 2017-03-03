@@ -8,7 +8,7 @@ use Illuminate\Auth\Access\HandlesAuthorization;
 
 class SecondaryInventoryPolicy
 {
-    use HandlesAuthorization;
+    //use HandlesAuthorization;
 
     /**
      * Determine whether the user can view the secondaryInventory.
@@ -19,7 +19,7 @@ class SecondaryInventoryPolicy
      */
     public function view(User $user, SecondaryInventory $secondaryInventory)
     {
-        return $user->robloxUserId == $secondaryInventory->userId  && $user->tankInventoryId == $secondaryInventory->id;
+        ///return $user->robloxUserId == $secondaryInventory->userId  && $user->tankInventoryId == $secondaryInventory->id;
     }
 
     /**

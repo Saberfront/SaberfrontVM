@@ -100,9 +100,9 @@
 
                                 <div class="col-md-6">
                                     <div v-for="scope in scopes">
-                                        <div class="checkbox">
+                                        <div >
                                             <label>
-                                                <input type="checkbox"
+                                                <input type="checkbox" class="checkbox"
                                                     @click="toggleScope(scope.id)"
                                                     :checked="scopeIsAssigned(scope.id)">
 

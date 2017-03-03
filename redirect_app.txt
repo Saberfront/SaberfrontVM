@@ -1,0 +1,1 @@
+http://25.31.70.190/saberfrontdb2/redirect?cid=1&gtype=authorization_code&r_uri=http://25.31.70.190/saberfrontdb2&resp_type=code

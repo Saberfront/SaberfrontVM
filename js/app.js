@@ -12460,9 +12460,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+
 //
 //
-    var DS_ADDR = "http://25.31.70.190/saberfrontdb2";
+    var DS_ADDR = "https://25.31.70.190/saberfrontdb2";
 
 /* harmony default export */ __webpack_exports__["default"] = {
     /*
@@ -12749,7 +12750,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 //
 //
 //
-    var DS_ADDR = "http://25.31.70.190/saberfrontdb2";
+    var DS_ADDR = "https://25.31.70.190/saberfrontdb2";
 
 /* harmony default export */ __webpack_exports__["default"] = {
     /*
@@ -13064,7 +13065,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 //
 //
 
-    var DS_ADDR = "http://25.31.70.190/saberfrontdb2";
+    var DS_ADDR = "https://25.31.70.190/saberfrontdb2";
 
 
 /* harmony default export */ __webpack_exports__["default"] = {
@@ -30505,7 +30506,7 @@ var Component = __webpack_require__(4)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\saberfrontdb2\\resources\\assets\\js\\components\\passport\\PersonalAccessTokens.vue"
+Component.options.__file = "C:\\xampp\\htdocs\\saberfrontdb2\\js\\components\\passport\\PersonalAccessTokens.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] PersonalAccessTokens.vue: functional components are not supported with templates, they should use render functions.")}
 
