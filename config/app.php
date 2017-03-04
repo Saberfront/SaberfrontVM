@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'timezone' => 'America/New_York',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -171,12 +171,12 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        Saberfront\Providers\AppServiceProvider::class,
+        Saberfront\Providers\AuthServiceProvider::class,
+        // Saberfront\Providers\BroadcastServiceProvider::class,
         EllipseSynergie\ApiResponse\Laravel\ResponseServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Saberfront\Providers\EventServiceProvider::class,
+        Saberfront\Providers\RouteServiceProvider::class,
         Laravel\Scout\ScoutServiceProvider::class,
         GetStream\StreamLaravel\StreamLaravelServiceProvider::class,
          Collective\Html\HtmlServiceProvider::class,
@@ -185,7 +185,8 @@ return [
          Silber\Bouncer\BouncerServiceProvider::class,
         Conner\Likeable\LikeableServiceProvider::class,    Hootlex\Friendships\FriendshipsServiceProvider::class,
         NotificationChannels\Discord\DiscordServiceProvider::class,
-
+\Actuallymab\LaravelComment\LaravelCommentServiceProvider::class,
+Aloha\Twilio\Support\Laravel\ServiceProvider::class
         ],
 
     /*
@@ -238,6 +239,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'FeedManager' => GetStream\StreamLaravel\Facades\FeedManager::class,
         'Bouncer' => Silber\Bouncer\BouncerFacade::class,
+        'Twilio' => Aloha\Twilio\Support\Laravel\Facade::class,
     ],
 
 ];

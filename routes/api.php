@@ -17,7 +17,7 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 });
 // get list of tasks
-Route::get('/inventory/all','SecondaryInventoryController@index')->middleware('scope:manage_secondary_inventories');
+Route::get('/inventory/all','SecondaryInventoryController@index')->middleware('scopes:manage_secondary_inventories');
 
 // get specific task
 Route::get('inventory/{id}','SecondaryInventoryController@show');

@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
-use App\User;
-use App\CustomLoadout;
+namespace Saberfront\Http\Controllers;
+use Saberfront\User;
+use Saberfront\Notifications\NewLoadoutNotification;
+use Saberfront\CustomLoadout;
 use Illuminate\Support\Facades\Auth;
-use App\Transformer\LoadoutTransformer;
+use Saberfront\Transformer\LoadoutTransformer;
  
-use App\Http\Requests;
+use Saberfront\Http\Requests;
 use EllipseSynergie\ApiResponse\Contracts\Response;
 use Illuminate\Http\Request;
 
@@ -27,7 +28,12 @@ class LoadoutController extends Controller
     {
         //
     }
-
+    public function comment($id,Request $request){
+        $user = Auth::user();
+        $loadout = CustomLoadout::find((int) $id);
+        $user->comment($loadout,$request->commentBody,0);
+        return redirect("/users/".$loadout->user->id);
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -49,13 +55,17 @@ class LoadoutController extends Controller
         if (isset($request['public'])){
             $request["public"] = ($request->public == "on") ? true : false;
         }
-        return CustomLoadout::create([
+        $user = Auth::user();
+        $loadout = CustomLoadout::create([
               'rid' => $request->rid,
               'loadout_name' => $request->loadout_name,
               'weapon_name' => $request->weapon_name,
               'secondary_name' => $request->secondary_name,
               'public' => $request->public,
              ]);
+
+        $user->notify(new NewLoadoutNotification($loadout));
+        return $loadout;
     }
     public function apiIndex($userId){
 
@@ -79,7 +89,7 @@ class LoadoutController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\CustomLoadout  $customLoadout
+     * @param  \Saberfront\CustomLoadout  $customLoadout
      * @return \Illuminate\Http\Response
      */
     public function show(CustomLoadout $customLoadout)
@@ -90,7 +100,7 @@ class LoadoutController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\CustomLoadout  $customLoadout
+     * @param  \Saberfront\CustomLoadout  $customLoadout
      * @return \Illuminate\Http\Response
      */
     public function edit(CustomLoadout $customLoadout)
@@ -102,7 +112,7 @@ class LoadoutController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\CustomLoadout  $customLoadout
+     * @param  \Saberfront\CustomLoadout  $customLoadout
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, CustomLoadout $customLoadout)
@@ -113,7 +123,7 @@ class LoadoutController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\CustomLoadout  $customLoadout
+     * @param  \Saberfront\CustomLoadout  $customLoadout
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

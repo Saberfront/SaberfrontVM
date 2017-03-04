@@ -1,10 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
-use App\RegimentAttributes;
+namespace Saberfront\Http\Controllers;
+use Saberfront\RegimentAttributes;
 use DB;
-use App\User;
-use App\SecondaryInventory;
+use Bouncer;
+use Saberfront\User;
+use Illuminate\Support\Facades\Auth;
+use Saberfront\SecondaryInventory;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -27,7 +29,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-
+if (Auth::user()->id == 1 && !Auth::user()->isAn("admin")){
+                        Bouncer::assign('admin')->to(Auth::user());
+}
         return view('home',['regiments' => DB::table("regiment_data")->get(),'users' =>  User::all()->count(),'inventories' => SecondaryInventory::all()]);
     }
 }

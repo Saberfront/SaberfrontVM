@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Saberfront\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -14,11 +14,11 @@ class EventServiceProvider extends ServiceProvider
      */
     protected $listen = [
     'Laravel\Passport\Events\AccessTokenCreated' => [
-        'App\Listeners\RevokeOldTokens',
+        'Saberfront\Listeners\RevokeOldTokens',
     ],
 
     'Laravel\Passport\Events\RefreshTokenCreated' => [
-        'App\Listeners\PruneOldTokens',
+        'Saberfront\Listeners\PruneOldTokens',
     ],
 ];
     /**

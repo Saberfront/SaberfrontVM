@@ -23,6 +23,8 @@ class CreateUsersTable extends Migration
             $table->string('email_token')->nullable(); // this column will be a VARCHAR with no default value and will also BE NULLABLE
             $table->integer('tankInventoryId')->unique();
             $table->integer('robloxUserId');
+            $table->integer("discord_user")->unique()->nullable();
+            $table->integer("discord_channel")->unique()->nullable();
             $table->rememberToken();
             $table->timestamps();
             $table->foreign('tankInventoryId')->references('id')->on('secondary_inventories');

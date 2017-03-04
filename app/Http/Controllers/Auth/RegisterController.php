@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Saberfront\Http\Controllers\Auth;
 use DB;
 use Mail;
-use App\User;
+use Saberfront\User;
 use Bouncer;
-use App\SecondaryInventory;
-use App\Mail\EmailVerification;
+use Saberfront\SecondaryInventory;
+use Saberfront\Mail\EmailVerification;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Saberfront\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -90,9 +90,7 @@ class RegisterController extends Controller
             'email_token' => str_random(10),
             'tankInventoryId' => $si->id,
         ]);
-        if ($user->id == 1){
-                        Bouncer::assign('admin')->to($user);
-}
+        
         return $user;
     }
 

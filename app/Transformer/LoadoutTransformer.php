@@ -1,7 +1,7 @@
 <?php
  
-namespace App\Transformer;
-use App\CustomLoadout;
+namespace Saberfront\Transformer;
+use Saberfront\CustomLoadout;
 
 class LoadoutTransformer {
  

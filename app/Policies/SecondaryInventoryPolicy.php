@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Policies;
+namespace Saberfront\Policies;
 
-use App\User;
-use App\SecondaryInventory;
+use Saberfront\User;
+use Saberfront\SecondaryInventory;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class SecondaryInventoryPolicy
@@ -13,8 +13,8 @@ class SecondaryInventoryPolicy
     /**
      * Determine whether the user can view the secondaryInventory.
      *
-     * @param  \App\User  $user
-     * @param  \App\SecondaryInventory  $secondaryInventory
+     * @param  \Saberfront\User  $user
+     * @param  \Saberfront\SecondaryInventory  $secondaryInventory
      * @return mixed
      */
     public function view(User $user, SecondaryInventory $secondaryInventory)
@@ -25,7 +25,7 @@ class SecondaryInventoryPolicy
     /**
      * Determine whether the user can create secondaryInventories.
      *
-     * @param  \App\User  $user
+     * @param  \Saberfront\User  $user
      * @return mixed
      */
     public function create(User $user)
@@ -36,8 +36,8 @@ class SecondaryInventoryPolicy
     /**
      * Determine whether the user can update the secondaryInventory.
      *
-     * @param  \App\User  $user
-     * @param  \App\SecondaryInventory  $secondaryInventory
+     * @param  \Saberfront\User  $user
+     * @param  \Saberfront\SecondaryInventory  $secondaryInventory
      * @return mixed
      */
     public function update(User $user, SecondaryInventory $secondaryInventory)
@@ -48,8 +48,8 @@ class SecondaryInventoryPolicy
     /**
      * Determine whether the user can delete the secondaryInventory.
      *
-     * @param  \App\User  $user
-     * @param  \App\SecondaryInventory  $secondaryInventory
+     * @param  \Saberfront\User  $user
+     * @param  \Saberfront\SecondaryInventory  $secondaryInventory
      * @return mixed
      */
     public function delete(User $user, SecondaryInventory $secondaryInventory)

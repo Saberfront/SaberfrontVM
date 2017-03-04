@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Saberfront\Http\Controllers\Auth;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Saberfront\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller

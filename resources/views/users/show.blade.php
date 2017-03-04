@@ -5,6 +5,13 @@
 use App\User;
 use App\CustomLoadout;
 use Carbon\Carbon;
+function getTimeFromActTypeArrayStyle($actType,$act){
+  switch($actType){
+    case "loadout":
+      return CustomLoadout::find((int)substr($act["object"],strpos($act["object"],":")+1))->created_at;
+      break;
+  }
+}
 @endphp
 <div class="content-wrapper" style="min-height: 1126px;">
     <!-- Content Header (Page header) -->
@@ -88,9 +95,9 @@ use Carbon\Carbon;
 
               <hr>
 
-              <strong><i class="fa fa-file-text-o margin-r-5"></i> Notes</strong>
+              <strong><i class="fa fa-file-text-o margin-r-5"></i>Blurb</strong>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+              <p>{!! $user->blurb !!}</p>
             </div>
             <!-- /.box-body -->
           </div>
@@ -108,6 +115,8 @@ use Carbon\Carbon;
               <div class="active tab-pane" id="activity">
                 <!-- Post -->
                      @foreach ($activities as $activity)
+                                         @if ($activity["type"] == "loadout")
+
                 <div class="post">
                   <div class="user-block">
                     <img class="img-circle img-bordered-sm" src="{{ (User::find(substr($activity['actor'],-1))->robloxUserId != null) ? 'https://www.roblox.com/headshot-thumbnail/image?userId='.User::find(substr($activity['actor'],-1))->robloxUserId.'&width=420&height=420&format=png' : 'https://www.gravatar.com/avatar/' . md5( strtolower( trim( User::find(substr($activity['actor'],-1))->email ) ) ) . '?d=' . urlencode( 'mm' ) . '&s=' . 80 }}" alt="user image">
@@ -115,7 +124,7 @@ use Carbon\Carbon;
                           <a href="#">@php  echo User::find(substr($activity["actor"],-1))->name; @endphp</a>
                           <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
                         </span>
-                    <span class="description">{{$activity["verb"]}} {{$activity["display_name"]}}  - {{Carbon::parse($activity["time"])->timezone("America/New_York")->diffForHumans()}}</span>
+                    <span class="description">{{$activity["verb"]}} {{$activity["display_name"]}}  - {{Carbon::parse(getTimeFromActTypeArrayStyle($activity["type"],$activity))->timezone("America/New_York")->diffForHumans()}}</span>
                   </div>
                   <!-- /.user-block -->
                   <p>
@@ -127,15 +136,31 @@ use Carbon\Carbon;
                     </li>
                     <li class="pull-right">
                       <a href="#" class="link-black text-sm"><i class="fa fa-comments-o margin-r-5"></i> Comments
-                        (5)</a></li>
+                        @php
+                          $commentable_class = substr($activity["object"],0,strpos($activity["object"],':'));
+                          $commentable_id = substr($activity["object"],strpos($activity["object"],':')+1)
+                        @endphp
+                        ({!! count($commentable_class::find($commentable_id)->comments) !!})</a></li>
+                     
                   </ul>
+@if ($activity["type"] == "loadout")
+<form action="{{ url('/loadouts/' . substr($activity['object'],strpos($activity['object'],':')+1).'/comment')}}" method="post"><div class="input-group">
 
-                  <input class="form-control input-sm" type="text" placeholder="Type a comment">
+                  <input class="form-control"  type="text" name="commentBody" placeholder="Type a comment" >
+                                        <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+
+                  <span class="input-group-btn">
+        <button type="submit" class="btn btn-primary" id="post-btn">
+      </span>Post</button>
+                    </div>
+
+                  </form>
+                  @endif
                 </div>
                 <!-- /.post -->
 
                 <!-- Post -->
-                
+                   @endif
                 @endforeach
                 <!-- /.post -->
               </div>
@@ -204,57 +229,42 @@ use Carbon\Carbon;
               <!-- /.tab-pane -->
 
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal">
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
-
+              @if (Auth::user()->id == $user->id)
+               <form class="form-horizontal" method="POST" action="{{ url('users/' . $user->id . '/changeSettings/discord')}}">
+                <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+                  <div class="form-group has-feedback">
+                    <label for="discordUserId" class="col-sm-2 control-label">My Discord ID</label>
+                  
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Name">
+                       <input type="number" name="discordUserId" class="form-control" placeholder="0000"><span class="glyphicon glyphicon-user form-control-feedback" aria-hidden="true"></span> 
+                       <button type="submit" class="btn btn-primary">Save Discord Settings</button>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-
+                  <div class="form-group has-feedback">
+                    <label for="discordUserId" class="col-sm-2 control-label">Desired Discord Channel (ID)</label>
+                  
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                       <input type="number" name="discordChannelId" class="form-control" placeholder="0000"><span class="glyphicon glyphicon-user form-control-feedback" aria-hidden="true"></span> 
+                       <button type="submit" class="btn btn-primary">Save Discord Settings</button>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
-
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Name">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputExperience" class="col-sm-2 control-label">Experience</label>
-
-                    <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Skills</label>
-
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <button type="submit" class="btn btn-danger">Submit</button>
-                    </div>
-                  </div>
+                  
                 </form>
+                <form class="form-horizontal" method="POST" action="{{ url('users/' . $user->id . '/changeSettings/blurb')}}">
+                <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+                  <div class="form-group">
+                    <label for="inputBlurb" class="col-sm-2 control-label">My Blurb</label>
+
+                    <div class="col-sm-10">
+                      <textarea name="blurb" id="inputBlurb" placeholder="Your blurb here"></textarea>
+                    </div>
+                  </div>
+                  
+                  
+                </form>
+                @else
+                <p> Not authorized to change settings</p>
+                @endif
               </div>
               <!-- /.tab-pane -->
             </div>

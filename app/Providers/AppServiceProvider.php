@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Saberfront\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

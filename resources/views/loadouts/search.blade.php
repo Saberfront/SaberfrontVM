@@ -20,10 +20,10 @@
             <!-- Add the bg color to the header using any of the bg-* classes -->
             <div class="widget-user-header bg-blue">
               <div class="widget-user-image">
-                <img class="img-circle" src="{{ ($record->owner()->robloxUserId != null) ? 'https://www.roblox.com/headshot-thumbnail/image?userId='.$record->owner()->robloxUserId.'&width=420&height=420&format=png' : 'https://www.gravatar.com/avatar/' . md5( strtolower( trim( $record->owner()->email ) ) ) . '?d=' . urlencode( 'mm' ) . '&s=' . 80 }}" alt="Creator">
+                <img class="img-circle" src="{{ ($record->owner->robloxUserId != null) ? 'https://www.roblox.com/headshot-thumbnail/image?userId='.$record->owner->robloxUserId.'&width=420&height=420&format=png' : 'https://www.gravatar.com/avatar/' . md5( strtolower( trim( $record->owner->email ) ) ) . '?d=' . urlencode( 'mm' ) . '&s=' . 80 }}" alt="Creator">
               </div>
               <!-- /.widget-user-image -->
-              <h3 class="widget-user-username">{{ $record->owner()->name }}'s Loadout: </h3>
+              <h3 class="widget-user-username">{{ $record->owner->name }}'s Loadout: </h3>
               <h5 class="widget-user-desc">{{ $record->loadout_name}}</h5>
             </div>
             <div class="box-footer no-padding">

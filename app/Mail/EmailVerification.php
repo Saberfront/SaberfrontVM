@@ -1,6 +1,6 @@
 <?php
-namespace App\Mail;
-use App\User;
+namespace Saberfront\Mail;
+use Saberfront\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;

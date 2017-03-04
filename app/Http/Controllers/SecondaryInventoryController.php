@@ -1,14 +1,14 @@
 <?php
  
-namespace App\Http\Controllers;
+namespace Saberfront\Http\Controllers;
  
 use Illuminate\Http\Request;
-use App\Http\Requests;
+use Saberfront\Http\Requests;
 
 use Illuminate\Support\Facades\Auth;
 use EllipseSynergie\ApiResponse\Contracts\Response;
-use App\SecondaryInventory;
-use App\Transformer\SecondaryInventoryTransformer;
+use Saberfront\SecondaryInventory;
+use Saberfront\Transformer\SecondaryInventoryTransformer;
  
 class SecondaryInventoryController extends Controller
 {

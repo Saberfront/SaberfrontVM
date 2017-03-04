@@ -1,4 +1,4 @@
-use App\User;
+use Saberfront\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Follow extends Model

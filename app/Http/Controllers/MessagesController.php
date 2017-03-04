@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Saberfront\Http\Controllers;
 
-use App\User;
+use Saberfront\User;
 use Carbon\Carbon;
 use Cmgmyr\Messenger\Models\Message;
 use Cmgmyr\Messenger\Models\Participant;

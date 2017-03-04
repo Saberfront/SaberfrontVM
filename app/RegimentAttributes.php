@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Saberfront;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Model;
 

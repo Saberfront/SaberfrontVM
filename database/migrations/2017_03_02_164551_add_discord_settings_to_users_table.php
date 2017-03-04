@@ -14,8 +14,7 @@ class AddDiscordSettingsToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->integer("discord_user")->unique()->nullable();
-            $table->integer("discord_channel")->unique()->nullable();
+            
         });
     }
 

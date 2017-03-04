@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Saberfront;
 use Bouncer;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -12,6 +12,8 @@ use Laravel\Passport\HasApiTokens;
 use Cmgmyr\Messenger\Traits\Messagable;
 use Silber\Bouncer\Database\HasRolesAndAbilities;
 use Hootlex\Friendships\Traits\Friendable;
+use Illuminate\Support\Facades\Auth;
+use Actuallymab\LaravelComment\CanComment;
 
 use Cmgmyr\Messenger\Models\Message;
 use Cmgmyr\Messenger\Models\Participant;
@@ -27,6 +29,7 @@ class User extends Authenticatable
     use Messagable;
     use HasRolesAndAbilities;
     use Friendable;
+    use CanComment;
     /*
      * The attributes that are mass assignable.
      *
@@ -42,16 +45,15 @@ class User extends Authenticatable
    protected $primaryKey = 'id';
     public function followers()
 {
-    return $this->belongsToMany('App\User', 'followers', 'follow_id', 'user_id')->withTimestamps();
+    return $this->belongsToMany('Saberfront\User', 'followers', 'follow_id', 'user_id')->withTimestamps();
 }
 public function loadouts(){
-    return $this->hasMany('App\CustomLoadout','rid','robloxUserId');
+    return $this->hasMany('Saberfront\CustomLoadout','rid','robloxUserId');
 }
 
-    public function routeNotificationForDiscord()
-    {
-        return $this->discord_channel;
-    }
+public static function getNotificationNoun($id){
+    return (User::find($id) == Auth::user()) ? "You" : User::find($id)->name;
+}
 public function owns($dt, $dat){
     $result = null;
     switch ($dt) {
@@ -101,13 +103,17 @@ public function isAdmin(){
 }
 public function following()
 {
-    return $this->belongsToMany('App\User', 'followers', 'user_id', 'follow_id')->withTimestamps();
+    return $this->belongsToMany('Saberfront\User', 'followers', 'user_id', 'follow_id')->withTimestamps();
 }
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
+    public function routeNotificationForDiscord()
+    {
+        return $this->discord_channel;
+    }
     public function verified()
 {
     $this->verified = 1;

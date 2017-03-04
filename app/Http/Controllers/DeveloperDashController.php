@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
-use App\RegimentAttributes;
+namespace Saberfront\Http\Controllers;
+use Saberfront\RegimentAttributes;
 use DB;
-use App\User;
-use App\SecondaryInventory;
+use Saberfront\User;
+use Saberfront\SecondaryInventory;
 use Illuminate\Http\Request;
 
 class DeveloperDashController extends Controller

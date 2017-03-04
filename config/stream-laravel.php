@@ -18,7 +18,7 @@ return [
     |-----------------------------------------------------------------------------
     |
     */
-    'location' => '',
+    'location' => 'us-east',
     'timeout' => 3,
     /*
     |-----------------------------------------------------------------------------
@@ -27,7 +27,7 @@ return [
     |
     */
 
-    'feed_manager_class' => 'GetStream\StreamLaravel\StreamLaravelManager',
+    'feed_manager_class' => GetStream\StreamLaravel\StreamLaravelManager::class,
 
     /*
     |-----------------------------------------------------------------------------

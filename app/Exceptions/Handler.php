@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace Saberfront\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

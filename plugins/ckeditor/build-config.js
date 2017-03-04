@@ -13,10 +13,10 @@
  * (1) http://ckeditor.com/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) http://ckeditor.com/builder/01cb0fb2862328d5ebe65d2222a0cd18
+ * (2) http://ckeditor.com/builder/ddb3881952c5a1d128eaf8bee81de7aa
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) http://ckeditor.com/builder/download/01cb0fb2862328d5ebe65d2222a0cd18
+ * (3) http://ckeditor.com/builder/download/ddb3881952c5a1d128eaf8bee81de7aa
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -49,15 +49,15 @@ var CKBUILDER_CONFIG = {
 		'tests'
 	],
 	plugins : {
-		'Text2Speech' : 1,
 		'a11ychecker' : 1,
 		'a11yhelp' : 1,
 		'about' : 1,
+		'autolink' : 1,
+		'autosave' : 1,
 		'basicstyles' : 1,
 		'bidi' : 1,
 		'blockquote' : 1,
 		'clipboard' : 1,
-		'codeTag' : 1,
 		'colorbutton' : 1,
 		'colordialog' : 1,
 		'contextmenu' : 1,
@@ -69,28 +69,19 @@ var CKBUILDER_CONFIG = {
 		'entities' : 1,
 		'filebrowser' : 1,
 		'find' : 1,
-		'flash' : 1,
 		'floatingspace' : 1,
 		'font' : 1,
 		'format' : 1,
-		'forms' : 1,
-		'googledocs' : 1,
 		'horizontalrule' : 1,
 		'htmlwriter' : 1,
-		'iframe' : 1,
-		'image' : 1,
 		'indentblock' : 1,
 		'indentlist' : 1,
 		'justify' : 1,
 		'language' : 1,
-		'link' : 1,
 		'list' : 1,
 		'liststyle' : 1,
 		'magicline' : 1,
 		'maximize' : 1,
-		'newpage' : 1,
-		'page2images' : 1,
-		'pagebreak' : 1,
 		'pastefromword' : 1,
 		'pastetext' : 1,
 		'preview' : 1,
@@ -108,20 +99,17 @@ var CKBUILDER_CONFIG = {
 		'strinsert' : 1,
 		'stylescombo' : 1,
 		'tab' : 1,
-		'table' : 1,
-		'tabletools' : 1,
 		'templates' : 1,
-		'toolbar' : 1,
 		'uicolor' : 1,
 		'undo' : 1,
-		'uploadfile' : 1,
 		'wsc' : 1,
-		'wysiwygarea' : 1
+		'xdsoft_translater' : 1
 	},
 	languages : {
 		'en' : 1,
 		'en-au' : 1,
 		'en-ca' : 1,
-		'en-gb' : 1
+		'en-gb' : 1,
+		'es' : 1
 	}
 };

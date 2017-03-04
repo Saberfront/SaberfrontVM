@@ -2,8 +2,7 @@
 use Illuminate\Http\Request;
 use  Illuminate\Support\Facades\Auth;
 use  Illuminate\Support\Facades\Input;
-
-use App\User;
+use Saberfront\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -57,7 +56,7 @@ Route::get('/loadouts/search', function (Request $request) {
         if($request->has('q')) {
 
             // Using the Laravel Scout syntax to search the products table.
-            $loadouts = App\CustomLoadout::search($request->get('q'))->get();
+            $loadouts = Saberfront\CustomLoadout::search($request->get('q'))->get();
 
             // If there are results return them, if none, return the error message.
                     return  view('loadouts.search',['result' => $loadouts->count() ? $loadouts : $error]);
@@ -68,8 +67,8 @@ Route::get('/loadouts/search', function (Request $request) {
     
 });
 Route::get('/users/{id}',function($id) {
-	$user = App\User::findOrFail($id);
-            $feed = FeedManager::getUserFeed($user->id);
+	$user = User::findOrFail($id);
+            $feed = FeedManager::getNewsFeeds($user->id)["timeline"];
 ;
 
         $activities = $feed->getActivities(0,25)['results'];
@@ -95,21 +94,7 @@ Route::post('/follow/',function(Request $request, User $user){
 
     return redirect('/users/' . $user1->id);
 });
-Route::get('/proxy/{apiType}', function ($apiType) {
-    $http = new GuzzleHttp\Client;
-    switch($apiType){
-        case "inventory.all":
-           $uri  = env('APP_URL', 'https://25.31.71.190/saberfrontdb2') . '/api/inventory/all';
-        break;
-    }
-    $response = $http->get($uri, [
-       "headers" => ["Accept" => "application/json",
-       "Authorization" => "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjJjMjA4MWU4ODZmMGJiZTI5MTkyNmQzNzNiY2MxZWIyMzM3MzZlMDUzN2QwMjc0YTdhMDU2YTMzYmE3Nzg2MjliNjZlYjAxYjdkZDQ3OGFlIn0.eyJhdWQiOiIxIiwianRpIjoiMmMyMDgxZTg4NmYwYmJlMjkxOTI2ZDM3M2JjYzFlYjIzMzczNmUwNTM3ZDAyNzRhN2EwNTZhMzNiYTc3ODYyOWI2NmViMDFiN2RkNDc4YWUiLCJpYXQiOjE0ODg0NzgzMjksIm5iZiI6MTQ4ODQ3ODMyOSwiZXhwIjoxNDg5NzcwNzI2LCJzdWIiOiIxIiwic2NvcGVzIjpbIm1hbmFnZV9zZWNvbmRhcnlfaW52ZW50b3JpZXMiXX0.g96Yz4kdngvRkwlIg0sDGAIf6ZWnCXq2oj5X6sbpBuKShHK1MIyaybXD-iXXHI9i67NOBHDvewqaQ7YFuBZ7dBrL4udK2BUy_nBxYtjmKxtOLAp56L0pLCJWI_sasMjEhtE2spWReIZXKRz8IDlrHAMz6mv6zF9Hkqkuvtv1l7N8VgwVZknw9JAFOKla8x9pIudF8dU_o4N2jWUB0Nds8P9dgAYz6g2klFM5o_fSGI-dOl8O7grLCBg8oserUZMhmSZtL0jEcbUSlUkdkpBIXn0P28txXaRQ-KWejCmZj1gRYzthMeDRpSfQrRmalu1r1mDePwiChNQMsvWAtWR4qwKozUsBhyvzoXKZ7OY3k5JEeHtgTZMmd7jzt_FCfBMJrkGmPs6EqNbUmkgXLVnp5ZsPXrutsRLaLMo_GYnDBEZlsk7Xrm10kJwdPK5Bdapa5YN07vJMhCj6FKc16zvM7p0KlhkBPfiUioSN5C2c_jfnIWDVeatgxzn6bTkBCQyuSMkHJs2-kTudjeYuueEOAPQ_hvbE27YD3oW7ct5SYjF_ar3HWz6j3TxpHYwSwakZfM42EGNVodNAJ4mxRwnpKwjGgBCyW8PFMa4HozjQtewIG-t7g9LnSFF1D-Pr2scVSdkWhXdcqc-OHWgi74o8vvN0fS6zGYtiMVPAeQ_5Urc"
-       ]
-    ]);
 
-    return json_decode((string) $response->getBody(), true);
-});
 Route::get('unfollow/{id}',function($id){
         $user1 = Auth::user();
 
@@ -137,5 +122,30 @@ Route::resource('loadouts','LoadoutController');
 Route::get('loadouts/create','LoadoutController@create');
 Route::post('loadouts/create','LoadoutController@store');
 Route::delete('loadouts/delete/{id}','LoadoutController@destroy');
+Route::post("loadouts/{id}/comment","LoadoutController@comment");
 Route::get('loadouts/delete/{id}','LoadoutController@delete');
 Route::post('loadouts/like','LoadoutController@like');
+Route::post('users/{id}/changeSettings/blurb',function($id,Request $request){
+       $user = User::find($id);
+       $user->blurb = $request->blurb;
+       $user->save();
+       return redirect("users/".$id);
+});
+Route::post('users/{id}/changeSettings/discord',"UserDiscordSettingsController@store");
+
+Route::post("/telephony",function($request){
+         $resp = Response::make(<<<TWIML
+        <Response>
+             <Say>Welcome to Saberfront Live</Say>
+        </Response>
+
+TWIML
+);
+         $resp->header('Content-Type', 'text/xml');
+         return $resp;
+
+
+
+
+ 
+});

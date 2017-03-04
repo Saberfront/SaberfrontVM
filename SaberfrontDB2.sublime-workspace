@@ -1,0 +1,4840 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"head",
+				"headers"
+			],
+			[
+				"cf",
+				"csrf_token"
+			],
+			[
+				"rou",
+				"Route"
+			],
+			[
+				"api",
+				"apiType"
+			],
+			[
+				"A",
+				"App"
+			],
+			[
+				"man",
+				"manage_secondary_inventories"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"a",
+				"activities"
+			],
+			[
+				"ver",
+				"verify"
+			],
+			[
+				"loa",
+				"loadout"
+			],
+			[
+				"Loadout",
+				"LoadoutTransformer"
+			],
+			[
+				"loadout",
+				"loadoutid"
+			],
+			[
+				"load",
+				"loadoutId"
+			],
+			[
+				"Load",
+				"CustomLoadout"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"res",
+				"request"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"cr",
+				"create"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"wea",
+				"weapon_name"
+			],
+			[
+				"sec",
+				"select\tTag"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"thr",
+				"thread"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"Secon",
+				"SecondaryInventory"
+			],
+			[
+				"robl",
+				"robloxUserId"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"Se",
+				"SecondaryInventoryTransformer"
+			],
+			[
+				"in",
+				"inventory"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"Ca",
+				"CanResetPassword"
+			],
+			[
+				"col",
+				"col-md-offset-2"
+			],
+			[
+				"regt",
+				"regimentAttributes"
+			],
+			[
+				"regine",
+				"regimentAttributes"
+			],
+			[
+				"regiment",
+				"regimentAttributes"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"id",
+				"idUri"
+			],
+			[
+				"table",
+				"table-striped"
+			],
+			[
+				"box",
+				"collapsed-box"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"bt-",
+				"btn-primary"
+			],
+			[
+				"btn-",
+				"btn-danger"
+			],
+			[
+				"box-t",
+				"box-tools"
+			],
+			[
+				"selc",
+				"select2"
+			],
+			[
+				"dataTab",
+				"dataTable_table"
+			],
+			[
+				"targe",
+				"target_table"
+			],
+			[
+				"sql",
+				"sqlRunner"
+			],
+			[
+				"auto",
+				"autoComplete"
+			],
+			[
+				"the",
+				"theme"
+			],
+			[
+				"theme",
+				"themes"
+			],
+			[
+				"code",
+				"codemirror"
+			],
+			[
+				"quer",
+				"queryval"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"Code",
+				"codemirror"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"incl",
+				"includes"
+			],
+			[
+				"Data",
+				"Database"
+			],
+			[
+				"Auh",
+				"Authorization"
+			],
+			[
+				"vac",
+				"vacuum"
+			],
+			[
+				"tar",
+				"target_table"
+			],
+			[
+				"struct",
+				"structure"
+			],
+			[
+				"delete",
+				"delete_db"
+			],
+			[
+				"row_",
+				"row_create"
+			],
+			[
+				"info-",
+				"info-box-content"
+			],
+			[
+				"content",
+				"content-wrapper"
+			],
+			[
+				"_SE",
+				"_SERVER"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"text",
+				"textToDom"
+			],
+			[
+				"teh",
+				"then"
+			],
+			[
+				"call",
+				"callback2"
+			],
+			[
+				"respo",
+				"responseText"
+			],
+			[
+				"download",
+				"downloadFile"
+			],
+			[
+				"file",
+				"fileId"
+			],
+			[
+				"dow",
+				"downloadFile"
+			],
+			[
+				"down",
+				"downloadFile"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"lis",
+				"listFiles"
+			],
+			[
+				"mak",
+				"makemagvisible"
+			],
+			[
+				"FR",
+				"FRAME_ADD"
+			],
+			[
+				"sta",
+				"statementToCode"
+			],
+			[
+				"an",
+				"anonymousfunction_literal"
+			],
+			[
+				"fra",
+				"create_frameset_with_frames"
+			],
+			[
+				"anm",
+				"anonymousfunction"
+			],
+			[
+				"OD",
+				"ORDER_ATOMIC"
+			],
+			[
+				"dro",
+				"dropdown_armtype"
+			],
+			[
+				"value_c",
+				"value_cframe"
+			],
+			[
+				"OR",
+				"ORDER_ATOMIC"
+			],
+			[
+				"Block",
+				"Blockly"
+			],
+			[
+				"O",
+				"ORDER_MEMBER"
+			],
+			[
+				"set",
+				"setc0imp"
+			],
+			[
+				"value_mag",
+				"value_magtable"
+			],
+			[
+				"ve",
+				"vectorToWorldSpace"
+			],
+			[
+				"velc",
+				"velocity_set"
+			],
+			[
+				"varia",
+				"variable_part"
+			],
+			[
+				"Ord",
+				"ORDER_ATOMIC"
+			],
+			[
+				"num",
+				"number_z"
+			],
+			[
+				"ORDE",
+				"ORDER_ATOMIC"
+			],
+			[
+				"ins",
+				"instance_destroy"
+			],
+			[
+				"make",
+				"makemaginvisible"
+			],
+			[
+				"ed",
+				"editorStage"
+			],
+			[
+				"block",
+				"blockView"
+			],
+			[
+				"lua",
+				"luaView"
+			],
+			[
+				"at",
+				"attr"
+			],
+			[
+				"na",
+				"nav-tabs"
+			],
+			[
+				"blc",
+				"blocklyView"
+			],
+			[
+				"ORd",
+				"ORDER_ATOMIC"
+			],
+			[
+				"ret",
+				"return_statement"
+			],
+			[
+				"stat",
+				"statements_code"
+			],
+			[
+				"s",
+				"statementConnections"
+			],
+			[
+				"frea",
+				"frameCount"
+			],
+			[
+				"Ty",
+				"type"
+			],
+			[
+				"cla",
+				"clauseBlock"
+			],
+			[
+				"container",
+				"containerBlock"
+			],
+			[
+				"anim",
+				"animationframeset"
+			],
+			[
+				"twe",
+				"tween_joint"
+			],
+			[
+				"val",
+				"value_duration"
+			],
+			[
+				"value",
+				"value_alpha"
+			],
+			[
+				"we",
+				"weldtype"
+			],
+			[
+				"setc",
+				"setc0"
+			],
+			[
+				"cfr",
+				"cframe_of"
+			],
+			[
+				"v",
+				"value_rx"
+			],
+			[
+				"CF",
+				"CFANG"
+			],
+			[
+				"S",
+				"Sine"
+			],
+			[
+				"setpa",
+				"setpart0"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server.php",
+			"settings":
+			{
+				"buffer_size": 556,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 623,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 1283,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/LoadoutController.php",
+			"settings":
+			{
+				"buffer_size": 3705,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/broadcasting.php",
+			"settings":
+			{
+				"buffer_size": 1530,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 14620,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 2275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Mail/NewLoadoutMail.php",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "curl -s --user 'api:key-816ae1b94dcf4b83d62fc20b5cbc594c' https://api.mailgun.net/v3/sandbox1f627255eda54feaaa8e52e118b73cd6.mailgun.org/messages -F from='Mailgun Sandbox <postmaster@sandbox1f627255eda54feaaa8e52e118b73cd6.mailgun.org>' -F to='Weldon Henson <weldon.henson97@gmail.com>' -F subject='Hello Weldon Henson' -F text='Congratulations Weldon Henson, you just sent an email with Mailgun!  You are truly awesome!' ",
+			"settings":
+			{
+				"buffer_size": 422,
+				"line_ending": "Windows",
+				"name": "curl -s --user 'api:key-816ae1b94dcf4b83d62fc20b5c"
+			}
+		},
+		{
+			"file": "composer.lock",
+			"settings":
+			{
+				"buffer_size": 233676,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/weldo/OneDrive/Documents/composer.json",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Notifications/NewLoadoutNotification.php",
+			"settings":
+			{
+				"buffer_size": 1325,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/ckeditor/build-config.js",
+			"settings":
+			{
+				"buffer_size": 2505,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/loadouts/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 4798,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/services.php",
+			"settings":
+			{
+				"buffer_size": 1075,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/assets/js/components/passport/PersonalAccessTokens.vue",
+			"settings":
+			{
+				"buffer_size": 10541,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/components/passport/PersonalAccessTokens.vue",
+			"settings":
+			{
+				"buffer_size": 10541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/CustomLoadout.php",
+			"settings":
+			{
+				"buffer_size": 1563,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/users/show.blade.php",
+			"settings":
+			{
+				"buffer_size": 11918,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/ClientRepository.php",
+			"settings":
+			{
+				"buffer_size": 4163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMzM2ODk3MTgzMmE3NzFhN2M3NGNlMjE4NDRkNjhhMTEyNDEwMzBmZWNiMmJlNzFjMzNmODc1ZjVlMThhZDdkZmFhMzYwMWU2MDdhOGU2In0.eyJhdWQiOiIyIiwianRpIjoiNWIzMzY4OTcxODMyYTc3MWE3Yzc0Y2UyMTg0NGQ2OGExMTI0MTAzMGZlY2IyYmU3MWMzM2Y4NzVmNWUxOGFkN2RmYWEzNjAxZTYwN2E4ZTYiLCJpYXQiOjE0ODg1NTUwMDAsIm5iZiI6MTQ4ODU1NTAwMCwiZXhwIjoxNTIwMDkxMDAwLCJzdWIiOiIxIiwic2NvcGVzIjpbIm1hbmFnZV9zZWNvbmRhcnlfaW52ZW50b3JpZXMiLCJtYW5hZ2VfbG9hZG91dHMiXX0.PK1qGXAHjFTdVd-nwSi3dKUiud6LlsDuh9KqNDLUE3uuEOm9pCJSN0xvOFIqwEh76JNitqvalNVI8CaPEQ7zNBPCwreuvr1XT53GaK30tIREYXYoX-nkxoxqxhesUti5xk_kzX3m_72PRAhJJgj9pB3SwV6Rid78OaqKMereZy50jxK1yBZQrycUukp-M1DvSf_t4u3865Zmb88hAKQZe9GiwpwqMl3SLM-48nv5ojycpz9p_MC3tZjiHyhEgPK04puaLCsXHI6eAs0q3hHQRRklH9o-fEDYeurg2hyLFVxrVN1CrLDskSq_fVQZbc5OTKbhi1s_0lDU9aZ_CncCVzdL0ryQhVsLTAzS5pkH6RKKFa1WcogbZgHpiXhH5GOwTGJGYDBMAz6fWfK6iKC-qe41JCvZ5UMaM7aQMjCOS1wOLtdg-RtSJxNp4okCWVTxnqqZO4tJTZ12PX91XWQHtHGuebRcJTUQIUr0hm_FGXn4tkesFu_e_WjZjO1F6eb7Nw4fdUiqvPn_QyjWNhqjEiJQzt4KcAvY8jd0FG1gcyOVMZ7BUKlYfEIi_XKd1Cy3QPt2YA0SD9fYvCC_cyDhr4LH05mH034MtpJ415P2BVAY11TrXH7FDEeioX6ZeLVPJ3udMSc7bc8ezhT5t2WCjmhHkhuPfmDW6JiF_HcZQa4\nClose\n",
+			"settings":
+			{
+				"buffer_size": 1142,
+				"line_ending": "Windows",
+				"name": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMz"
+			}
+		},
+		{
+			"file": "database/migrations/2017_03_03_105233_add_blurb_to_users_table.php",
+			"settings":
+			{
+				"buffer_size": 641,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/channels.php",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/console.php",
+			"settings":
+			{
+				"buffer_size": 553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 5259,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/users/search.blade.php",
+			"settings":
+			{
+				"buffer_size": 2578,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/vendor/pagination/simple-bootstrap-4.blade.php",
+			"settings":
+			{
+				"buffer_size": 706,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/vendor/pagination/default.blade.php",
+			"settings":
+			{
+				"buffer_size": 1282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/vendor/pagination/bootstrap-4.blade.php",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <title>Discussion Update</title>\n    <style type=\"text/css\">\n    /* -------------------------------------\n        INLINED WITH https://putsmail.com/inliner\n    ------------------------------------- */\n    /* -------------------------------------\n        RESPONSIVE AND MOBILE FRIENDLY STYLES\n    ------------------------------------- */\n    @media only screen and (max-width: 620px) {\n      table[class=body] h1 {\n        font-size: 28px !important;\n        margin-bottom: 10px !important; }\n      table[class=body] p,\n      table[class=body] ul,\n      table[class=body] ol,\n      table[class=body] td,\n      table[class=body] span,\n      table[class=body] a {\n        font-size: 16px !important; }\n      table[class=body] .wrapper,\n      table[class=body] .article {\n        padding: 10px !important; }\n      table[class=body] .content {\n        padding: 0 !important; }\n      table[class=body] .container {\n        padding: 0 !important;\n        width: 100% !important; }\n      table[class=body] .main {\n        border-left-width: 0 !important;\n        border-radius: 0 !important;\n        border-right-width: 0 !important; }\n      table[class=body] .btn table {\n        width: 100% !important; }\n      table[class=body] .btn a {\n        width: 100% !important; }\n      table[class=body] .img-responsive {\n        height: auto !important;\n        max-width: 100% !important;\n        width: auto !important; }}\n    /* -------------------------------------\n        PRESERVE THESE STYLES IN THE HEAD\n    ------------------------------------- */\n    @media all {\n      .ExternalClass {\n        width: 100%; }\n      .ExternalClass,\n      .ExternalClass p,\n      .ExternalClass span,\n      .ExternalClass font,\n      .ExternalClass td,\n      .ExternalClass div {\n        line-height: 100%; }\n      .apple-link a {\n        color: inherit !important;\n        font-family: inherit !important;\n        font-size: inherit !important;\n        font-weight: inherit !important;\n        line-height: inherit !important;\n        text-decoration: none !important; }\n      .btn-primary table td:hover {\n        background-color: #34495e !important; }\n      .btn-primary a:hover {\n        background-color: #34495e !important;\n        border-color: #34495e !important; } }\n    </style>\n  </head>\n  <body class=\"\" style=\"background-color:#f6f6f6;font-family:sans-serif;-webkit-font-smoothing:antialiased;font-size:14px;line-height:1.4;margin:0;padding:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;\">\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"body\" style=\"border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:#f6f6f6;width:100%;\">\n      <tr>\n        <td style=\"font-family:sans-serif;font-size:14px;vertical-align:top;\">&nbsp;</td>\n        <td class=\"container\" style=\"font-family:sans-serif;font-size:14px;vertical-align:top;display:block;max-width:580px;padding:10px;width:580px;Margin:0 auto !important;\">\n          <div class=\"content\" style=\"box-sizing:border-box;display:block;Margin:0 auto;max-width:580px;padding:10px;\">\n            <!-- START CENTERED WHITE CONTAINER -->\n            <span class=\"preheader\" style=\"color:transparent;display:none;height:0;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;visibility:hidden;width:0;\">This is preheader text. Some clients will show this text as a preview.</span>\n            <table class=\"main\" style=\"border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;background:#fff;border-radius:3px;width:100%;\">\n              <!-- START MAIN CONTENT AREA -->\n              <tr>\n                <td class=\"wrapper\" style=\"font-family:sans-serif;font-size:14px;vertical-align:top;box-sizing:border-box;padding:20px;\">\n                  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;width:100%;\">\n                    <tr>\n                      <td style=\"font-family:sans-serif;font-size:14px;vertical-align:top;\">\n                        <p style=\"font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;\">Hi there,</p>\n                        <p style=\"font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;\">Just wanted to let you know that someone has responded to a forum post at <a href=\"{{ url('/') }}/{{ Config::get('chatter.routes.home') }}/{{ Config::get('chatter.routes.discussion') }}/{{ $discussion->category->slug }}/{{ $discussion->slug }}\" target=\"_blank\" style=\"color:#3498db\">{{ url('/') }}</a></p>\n                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"btn btn-primary\" style=\"border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;box-sizing:border-box;width:100%;\">\n                          <tbody>\n                            <tr>\n                              <td align=\"left\" style=\"font-family:sans-serif;font-size:14px;vertical-align:top;padding-bottom:15px;\">\n                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;width:100%;width:auto;\">\n                                  <tbody>\n                                    <tr>\n                                      <td style=\"font-family:sans-serif;font-size:14px;vertical-align:top;background-color:#ffffff;border-radius:5px;text-align:center;background-color:#3498db;\"> <a href=\"{{ url('/') }}/{{ Config::get('chatter.routes.home') }}/{{ Config::get('chatter.routes.discussion') }}/{{ $discussion->category->slug }}/{{ $discussion->slug }}\" target=\"_blank\" style=\"text-decoration:underline;background-color:#ffffff;border:solid 1px #3498db;border-radius:5px;box-sizing:border-box;color:#3498db;cursor:pointer;display:inline-block;font-size:14px;font-weight:bold;margin:0;padding:12px 25px;text-decoration:none;text-transform:capitalize;background-color:#3498db;border-color:#3498db;color:#ffffff;\">View The Discussion</a> </td>\n                                    </tr>\n                                  </tbody>\n                                </table>\n                              </td>\n                            </tr>\n                          </tbody>\n                        </table>\n                        <p style=\"font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;\">If you no longer wish to be notified when someone responds to this form post be sure to uncheck the notification setting at the bottom of the page :)</p>\n                        <p style=\"font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;\">Have a great day!</p>\n                      </td>\n                    </tr>\n                  </table>\n                </td>\n              </tr>\n              <!-- END MAIN CONTENT AREA -->\n            </table>\n            <!-- START FOOTER -->\n            <div class=\"footer\" style=\"clear:both;padding-top:10px;text-align:center;width:100%;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;width:100%;\">\n                <tr>\n                  <td class=\"content-block\" style=\"font-family:sans-serif;font-size:14px;vertical-align:top;color:#999999;font-size:12px;text-align:center;\">\n                     Don't like these emails? <a href=\"{{ url('/') }}/{{ Config::get('chatter.routes.home') }}/{{ Config::get('chatter.routes.discussion') }}/{{ $discussion->category->slug }}/{{ $discussion->slug }}\" style=\"color:#3498db;text-decoration:underline;color:#999999;font-size:12px;text-align:center;\">Unsubscribe to this Discussion</a>.\n                  </td>\n                </tr>\n              </table>\n            </div>\n            <!-- END FOOTER -->\n            <!-- END CENTERED WHITE CONTAINER -->\n          </div>\n        </td>\n        <td style=\"font-family:sans-serif;font-size:14px;vertical-align:top;\">&nbsp;</td>\n      </tr>\n    </table>\n  </body>\n</html>",
+			"file": "vendor/devdojo/chatter/src/Views/email.blade.php",
+			"file_size": 8179,
+			"file_write_time": 131328743351775465,
+			"settings":
+			{
+				"buffer_size": 8179,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@extends(Config::get('chatter.master_file_extend'))\n\n@section(Config::get('chatter.yields.head'))\n    <link href=\"{{ asset('vendor/devdojo/chatter/assets/vendor/spectrum/spectrum.css') }}\" rel=\"stylesheet\">\n\t<link href=\"{{ asset('vendor/devdojo/chatter/assets/css/chatter.css') }}\" rel=\"stylesheet\">\n\t@if($chatter_editor == 'simplemde')\n\t\t<link href=\"{{ asset('vendor/devdojo/chatter/assets/css/simplemde.min.css') }}\" rel=\"stylesheet\">\n\t@endif\n@endsection\n\n@section('content')\n<div id=\"chatter\" class=\"content-wrapper chatter_home\">\n<section id=\"chatter_hero\" class=\"content-header\">\n\t\t<div id=\"chatter_hero_dimmer\"></div>\n\t\t<?php $headline_logo = Config::get('chatter.headline_logo'); ?>\n\t\t@if( isset( $headline_logo ) && !empty( $headline_logo ) )\n\t\t\t<img src=\"{{ asset(Config::get('chatter.headline_logo')) }}\">\n\t\t@else\n\t\t\t<h1>{{ Config::get('chatter.headline') }}</h1>\n\t\t\t<p>{{ Config::get('chatter.description') }}</p>\n\t\t@endif\n</section>\n<section class=\"content\">\n\n\n\t\n\n\t@if(Session::has('chatter_alert'))\n\t\t<div class=\"chatter-alert alert alert-{{ Session::get('chatter_alert_type') }}\">\n\t\t\t<div class=\"container\">\n\t        \t<strong><i class=\"chatter-alert-{{ Session::get('chatter_alert_type') }}\"></i> {{ Config::get('chatter.alert_messages.' . Session::get('chatter_alert_type')) }}</strong>\n\t        \t{{ Session::get('chatter_alert') }}\n\t        \t<i class=\"chatter-close\"></i>\n\t        </div>\n\t    </div>\n\t    <div class=\"chatter-alert-spacer\"></div>\n\t@endif\n\n\t@if (count($errors) > 0)\n\t    <div class=\"chatter-alert alert alert-danger\">\n\t    \t<div class=\"container\">\n\t    \t\t<p><strong><i class=\"chatter-alert-danger\"></i> {{ Config::get('chatter.alert_messages.danger') }}</strong> Please fix the following errors:</p>\n\t\t        <ul>\n\t\t            @foreach ($errors->all() as $error)\n\t\t                <li>{{ $error }}</li>\n\t\t            @endforeach\n\t\t        </ul>\n\t\t    </div>\n\t    </div>\n\t@endif\n\n\t<div class=\"container chatter_container\">\n\t\t\n\t    <div class=\"row\">\n\n\t    \t<div class=\"col-md-3 left-column\">\n\t    \t\t<!-- SIDEBAR -->\n\t    \t\t<div class=\"chatter_sidebar\">\n\t\t\t\t\t<button class=\"btn btn-primary\" id=\"new_discussion_btn\"><i class=\"chatter-new\"></i> New {{ Config::get('chatter.titles.discussion') }}</button> \n\t\t\t\t\t<a href=\"{{url( Config::get('chatter.routes.home')) }}\"><i class=\"chatter-bubble\"></i> All {{ Config::get('chatter.titles.discussion') }}</a>\n\t\t\t\t\t<ul class=\"nav nav-pills nav-stacked\">\n\t\t\t\t\t\t<?php $categories = DevDojo\\Chatter\\Models\\Models::category()->all(); ?>\n\t\t\t\t\t\t@foreach($categories as $category)\n\t\t\t\t\t\t\t<li><a href=\"{{ url(Config::get('chatter.routes.home').'/'. Config::get('chatter.routes.category').'/'.$category->slug) }}\"><div class=\"chatter-box\" style=\"background-color:{{ $category->color }}\"></div> {{ $category->name }}</a></li>\n\t\t\t\t\t\t@endforeach\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<!-- END SIDEBAR -->\n\t    \t</div>\n\t        <div class=\"col-md-9 right-column\">\n\t        \t<div class=\"panel\">\n\t\t        \t<ul class=\"discussions\">\n\t\t        \t\t@foreach($discussions as $discussion)\n\t\t\t\t        \t<li>\n\t\t\t\t        \t\t<a class=\"discussion_list\" href=\"{{ url(Config::get('chatter.routes.home').'/'. Config::get('chatter.routes.discussion').'/'.$discussion->category->slug.'/'.$discussion->slug) }}\">\n\t\t\t\t\t        \t\t<div class=\"chatter_avatar\">\n\t\t\t\t\t        \t\t\t@if(Config::get('chatter.user.avatar_image_database_field'))\n\t\t\t\t\t        \t\t\t\t\n\t\t\t\t\t        \t\t\t\t<?php $db_field = Config::get('chatter.user.avatar_image_database_field'); ?>\n\t\t\t\t\t        \t\t\t\t\n\t\t\t\t\t        \t\t\t\t<!-- If the user db field contains http:// or https:// we don't need to use the relative path to the image assets -->\n\t\t\t\t\t        \t\t\t\t@if( (substr($discussion->user->{$db_field}, 0, 7) == 'http://') || (substr($discussion->user->{$db_field}, 0, 8) == 'https://') )\n\t\t\t\t\t        \t\t\t\t\t<img src=\"{{ asset($discussion->user->{$db_field})  }}\">\n\t\t\t\t\t        \t\t\t\t@else\n\t\t\t\t\t        \t\t\t\t\t<img src=\"{{ Config::get('chatter.user.relative_url_to_image_assets') . $discussion->user->{$db_field}  }}\">\n\t\t\t\t\t        \t\t\t\t@endif\n\t\t\t\t\t        \t\t\t\n\t\t\t\t\t        \t\t\t@else\n\t\t\t\t\t        \t\t\t\t\n\t\t\t\t\t        \t\t\t\t<span class=\"chatter_avatar_circle\" style=\"background-color:#<?= \\DevDojo\\Chatter\\Helpers\\ChatterHelper::stringToColorCode($discussion->user->email) ?>\">\n\t\t\t\t\t        \t\t\t\t\t{{ strtoupper(substr($discussion->user->email, 0, 1)) }}\n\t\t\t\t\t        \t\t\t\t</span>\n\t\t\t\t\t        \t\t\t\t\n\t\t\t\t\t        \t\t\t@endif\n\t\t\t\t\t        \t\t</div>\n\n\t\t\t\t\t        \t\t<div class=\"chatter_middle\">\n\t\t\t\t\t        \t\t\t<h3 class=\"chatter_middle_title\">{{ $discussion->title }} <div class=\"chatter_cat\" style=\"background-color:{{ $discussion->category->color }}\">{{ $discussion->category->name }}</div></h3>\n\t\t\t\t\t        \t\t\t<span class=\"chatter_middle_details\">Posted By: <span data-href=\"/user\">{{ ucfirst($discussion->user->{Config::get('chatter.user.database_field_with_user_name')}) }}</span> {{ \\Carbon\\Carbon::createFromTimeStamp(strtotime($discussion->created_at))->diffForHumans() }}</span>\n\t\t\t\t\t        \t\t\t@if($discussion->post[0]->markdown)\n\t\t\t\t\t        \t\t\t\t<?php $discussion_body = GrahamCampbell\\Markdown\\Facades\\Markdown::convertToHtml( $discussion->post[0]->body ); ?>\n\t\t\t\t\t        \t\t\t@else\n\t\t\t\t\t        \t\t\t\t<?php $discussion_body = $discussion->post[0]->body; ?>\n\t\t\t\t\t        \t\t\t@endif\n\t\t\t\t\t        \t\t\t<p>{{ substr(strip_tags($discussion_body), 0, 200) }}@if(strlen(strip_tags($discussion_body)) > 200){{ '...' }}@endif</p>\n\t\t\t\t\t        \t\t</div>\n\n\t\t\t\t\t        \t\t<div class=\"chatter_right\">\n\t\t\t\t\t        \t\t\t\n\t\t\t\t\t        \t\t\t<div class=\"chatter_count\"><i class=\"chatter-bubble\"></i> {{ $discussion->postsCount[0]->total }}</div>\n\t\t\t\t\t        \t\t</div>\n\n\t\t\t\t\t        \t\t<div class=\"chatter_clear\"></div>\n\t\t\t\t\t        \t</a>\n\t\t\t\t        \t</li>\n\t\t\t        \t@endforeach\n\t\t        \t</ul>\n\t        \t</div>\n\n\t        \t<div id=\"pagination\">\n\t        \t\t{{ $discussions->links() }}\n\t        \t</div>\n\n\t        </div>\n\t    </div>\n\t</div>\n\n\t<div id=\"new_discussion\">\n\t        \t\n\n    \t<div class=\"chatter_loader dark\" id=\"new_discussion_loader\">\n\t\t    <div></div>\n\t\t</div>\n\n    \t<form id=\"chatter_form_editor\" action=\"{{ url(Config::get('chatter.routes.home') .'/'. Config::get('chatter.routes.discussion')) }}\" method=\"POST\">\n        \t<div class=\"row\">\n\t        \t<div class=\"col-md-7\">\n\t\t        \t<!-- TITLE -->\n\t                <input type=\"text\" class=\"form-control\" id=\"title\" name=\"title\" placeholder=\"Title of {{ Config::get('chatter.titles.discussion') }}\" v-model=\"title\" value=\"{{ old('title') }}\" >\n\t            </div>\n\n\t            <div class=\"col-md-4\">\n\t\t            <!-- CATEGORY -->\n\t\t\t            <select id=\"chatter_category_id\" class=\"form-control\" name=\"chatter_category_id\">\n\t\t\t            \t<option value=\"\">Select a Category</option>\n\t\t\t\t            @foreach($categories as $category)\n\t\t\t\t            \t@if(old('chatter_category_id') == $category->id)\n\t\t\t\t            \t\t<option value=\"{{ $category->id }}\" selected>{{ $category->name }}</option>\n\t\t\t\t            \t@else\n\t\t\t\t            \t\t<option value=\"{{ $category->id }}\">{{ $category->name }}</option>\n\t\t\t\t            \t@endif\n\t\t\t\t            @endforeach\n\t\t\t            </select>\n\t\t        </div>\n\n\t\t        <div class=\"col-md-1\">\n\t\t        \t<i class=\"chatter-close\"></i>\n\t\t        </div>\t\n\t        </div><!-- .row -->\n\n            <!-- BODY -->\n        \t<div id=\"editor\">\n        \t\t@if( $chatter_editor == 'tinymce' || empty($chatter_editor) )\n\t\t\t\t\t<label id=\"tinymce_placeholder\">Add the content for your Discussion here</label>\n    \t\t\t\t<textarea id=\"body\" class=\"richText\" name=\"body\" placeholder=\"\">{{ old('body') }}</textarea>\n    \t\t\t@elseif($chatter_editor == 'simplemde')\n    \t\t\t\t<textarea id=\"simplemde\" name=\"body\" placeholder=\"\">{{ old('body') }}</textarea>\n    \t\t\t@endif\n    \t\t</div>\n\n            <input type=\"hidden\" name=\"_token\" id=\"csrf_token_field\" value=\"{{ csrf_token() }}\">\n\n            <div id=\"new_discussion_footer\">\n            \t<input type='text' id=\"color\" name=\"color\" /><span class=\"select_color_text\">Select a Color for this Discussion (optional)</span>\n            \t<button id=\"submit_discussion\" class=\"btn btn-success pull-right\"><i class=\"chatter-new\"></i> Create {{ Config::get('chatter.titles.discussion') }}</button>\n            \t<a href=\"/{{ Config::get('chatter.routes.home') }}\" class=\"btn btn-default pull-right\" id=\"cancel_discussion\">Cancel</a>\n            \t<div style=\"clear:both\"></div>\n            </div>\n        </form>\n\n    </div><!-- #new_discussion -->\n\n\n@if( $chatter_editor == 'tinymce' || empty($chatter_editor) )\n\t<input type=\"hidden\" id=\"chatter_tinymce_toolbar\" value=\"{{ Config::get('chatter.tinymce.toolbar') }}\">\n\t<input type=\"hidden\" id=\"chatter_tinymce_plugins\" value=\"{{ Config::get('chatter.tinymce.plugins') }}\">\n@endif\n<input type=\"hidden\" id=\"current_path\" value=\"{{ Request::path() }}\">\n</section>\n</div>\n@endsection\n\n@section(Config::get('chatter.yields.footer'))\n\n\n@if( $chatter_editor == 'tinymce' || empty($chatter_editor) )\n\t<script src=\"{{ asset('vendor/devdojo/chatter/assets/vendor/tinymce/tinymce.min.js') }}\"></script>\n\t<script src=\"{{ asset('vendor/devdojo/chatter/assets/js/tinymce.js') }}\"></script>\n\t<script>\n\t\tvar my_tinymce = tinyMCE;\n\t\t$('document').ready(function(){\n\t\t\t$('#tinymce_placeholder').click(function(){\n\t\t\t\tmy_tinymce.activeEditor.focus();\n\t\t\t});\n\t\t});\n\t</script>\n@elseif($chatter_editor == 'simplemde')\n\t<script src=\"{{ asset('vendor/devdojo/chatter/assets/js/simplemde.min.js') }}\"></script>\n\t<script src=\"/vendor/devdojo/chatter/assets/js/chatter_simplemde.js\"></script>\n@endif\n\n<script src=\"{{ asset('vendor/devdojo/chatter/assets/vendor/spectrum/spectrum.js') }}\"></script>\n<script src=\"{{ asset('vendor/devdojo/chatter/assets/js/chatter.js') }}\"></script>\n<script>\n\t$('document').ready(function(){\n\n\t\t$('.chatter-close').click(function(){\n\t\t\t$('#new_discussion').slideUp();\n\t\t});\n\t\t$('#new_discussion_btn, #cancel_discussion').click(function(){\n\t\t\t@if(Auth::guest())\n\t\t\t\twindow.location.href = \"{{ url(Config::get('chatter.routes.home').'/login') }}\";\n\t\t\t@else\n\t\t\t\t$('#new_discussion').slideDown();\n\t\t\t\t$('#title').focus();\n\t\t\t@endif\n\t\t});\n\n\t\t$(\"#color\").spectrum({\n\t\t    color: \"#333639\",\n\t\t    preferredFormat: \"hex\",\n\t\t    containerClassName: 'chatter-color-picker',\n\t\t    cancelText: '',\n    \t\tchooseText: 'close',\n\t\t    move: function(color) {\n\t\t\t\t$(\"#color\").val(color.toHexString());\n\t\t\t}\n\t\t});\n\n\t\t@if (count($errors) > 0)\n\t\t\t$('#new_discussion').slideDown();\n\t\t\t$('#title').focus();\n\t\t@endif\n\n\n\t});\n</script>\n@stop\n",
+			"file": "vendor/devdojo/chatter/src/Views/home.blade.php",
+			"file_size": 10445,
+			"file_write_time": 131329755888244576,
+			"settings":
+			{
+				"buffer_size": 10445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace DevDojo\\Chatter\\Controllers;\n\nuse Auth;\nuse DevDojo\\Chatter\\Models\\Models;\nuse Illuminate\\Routing\\Controller as Controller;\n\nclass ChatterController extends Controller\n{\n    public function index($slug = '')\n    {\n        $pagination_results = config('chatter.paginate.num_of_results');\n\n        $discussions = Models::discussion()->with('user')->with('post')->with('postsCount')->with('category')->orderBy('created_at', 'DESC')->paginate($pagination_results);\n        if (isset($slug)) {\n            $category = Models::category()->where('slug', '=', $slug)->first();\n            if (isset($category->id)) {\n                $discussions = Models::discussion()->with('user')->with('post')->with('postsCount')->with('category')->where('chatter_category_id', '=', $category->id)->orderBy('created_at', 'DESC')->paginate($pagination_results);\n            }\n        }\n\n        $categories = Models::category()->all();\n        $chatter_editor = config('chatter.editor');\n\n        // Dynamically register markdown service provider\n        \\App::register('GrahamCampbell\\Markdown\\MarkdownServiceProvider');\n\n        return view('chatter::home', compact('discussions', 'categories', 'chatter_editor'));\n    }\n\n    public function login()\n    {\n        if (!Auth::check()) {\n            return \\Redirect::to('/'.config('chatter.routes.login').'?redirect='.config('chatter.routes.home'))->with('flash_message', 'Please create an account before posting.');\n        }\n    }\n\n    public function register()\n    {\n        if (!Auth::check()) {\n            return \\Redirect::to('/'.config('chatter.routes.register').'?redirect='.config('chatter.routes.home'))->with('flash_message', 'Please register for an account.');\n        }\n    }\n}\n",
+			"file": "vendor/devdojo/chatter/src/Controllers/ChatterController.php",
+			"file_size": 1739,
+			"file_write_time": 131328743351610030,
+			"settings":
+			{
+				"buffer_size": 1739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace DevDojo\\Chatter\\Controllers;\n\nuse Auth;\nuse Carbon\\Carbon;\nuse DevDojo\\Chatter\\Mail\\ChatterDiscussionUpdated;\nuse DevDojo\\Chatter\\Models\\Models;\nuse Illuminate\\Http\\Request;\nuse Illuminate\\Routing\\Controller as Controller;\nuse Illuminate\\Support\\Facades\\Mail;\nuse Validator;\n\nclass ChatterPostController extends Controller\n{\n    /**\n     * Display a listing of the resource.\n     *\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function index(Request $request)\n    {\n        $total = 10;\n        $offset = 0;\n        if ($request->total) {\n            $total = $request->total;\n        }\n        if ($request->offset) {\n            $offset = $request->offset;\n        }\n        $posts = Models::post()->with('user')->orderBy('created_at', 'DESC')->take($total)->offset($offset)->get();\n\n        return response()->json($posts);\n    }\n\n    /**\n     * Store a newly created resource in storage.\n     *\n     * @param \\Illuminate\\Http\\Request $request\n     *\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function store(Request $request)\n    {\n        $stripped_tags_body = ['body' => strip_tags($request->body)];\n        $validator = Validator::make($stripped_tags_body, [\n            'body' => 'required|min:10',\n        ]);\n\n        if (function_exists('chatter_before_new_response')) {\n            chatter_before_new_response($request, $validator);\n        }\n\n        if ($validator->fails()) {\n            return back()->withErrors($validator)->withInput();\n        }\n\n        if (config('chatter.security.limit_time_between_posts')) {\n            if ($this->notEnoughTimeBetweenPosts()) {\n                $minute_copy = (config('chatter.security.time_between_posts') == 1) ? ' minute' : ' minutes';\n                $chatter_alert = [\n                    'chatter_alert_type' => 'danger',\n                    'chatter_alert'      => 'In order to prevent spam, Please allow at least '.config('chatter.security.time_between_posts').$minute_copy.' inbetween submitting content.',\n                    ];\n\n                return back()->with($chatter_alert)->withInput();\n            }\n        }\n\n        $request->request->add(['user_id' => Auth::user()->id]);\n\n        if (config('chatter.editor') == 'simplemde'):\n            $request->request->add(['markdown' => 1]);\n        endif;\n\n        $new_post = Models::post()->create($request->all());\n\n        $discussion = Models::discussion()->find($request->chatter_discussion_id);\n\n        $category = Models::category()->find($discussion->chatter_category_id);\n        if (!isset($category->slug)) {\n            $category = Models::category()->first();\n        }\n\n        if ($new_post->id) {\n            if (function_exists('chatter_after_new_response')) {\n                chatter_after_new_response($request);\n            }\n\n            // if email notifications are enabled\n            if (config('chatter.email.enabled')) {\n                // Send email notifications about new post\n                $this->sendEmailNotifications($new_post->discussion);\n            }\n\n            $chatter_alert = [\n                'chatter_alert_type' => 'success',\n                'chatter_alert'      => 'Response successfully submitted to '.config('chatter.titles.discussion').'.',\n                ];\n\n            return redirect('/'.config('chatter.routes.home').'/'.config('chatter.routes.discussion').'/'.$category->slug.'/'.$discussion->slug)->with($chatter_alert);\n        } else {\n            $chatter_alert = [\n                'chatter_alert_type' => 'danger',\n                'chatter_alert'      => 'Sorry, there seems to have been a problem submitting your response.',\n                ];\n\n            return redirect('/'.config('chatter.routes.home').'/'.config('chatter.routes.discussion').'/'.$category->slug.'/'.$discussion->slug)->with($chatter_alert);\n        }\n    }\n\n    private function notEnoughTimeBetweenPosts()\n    {\n        $user = Auth::user();\n\n        $past = Carbon::now()->subMinutes(config('chatter.security.time_between_posts'));\n\n        $last_post = Models::post()->where('user_id', '=', $user->id)->where('created_at', '>=', $past)->first();\n\n        if (isset($last_post)) {\n            return true;\n        }\n\n        return false;\n    }\n\n    private function sendEmailNotifications($discussion)\n    {\n        $users = $discussion->users->except(Auth::user()->id);\n        foreach ($users as $user) {\n            Mail::to($user)->queue(new ChatterDiscussionUpdated($discussion));\n        }\n    }\n\n    /**\n     * Update the specified resource in storage.\n     *\n     * @param \\Illuminate\\Http\\Request $request\n     * @param int                      $id\n     *\n     * @return \\Illuminate\\Http\\Response\n     */\n    public function update(Request $request, $id)\n    {\n        $stripped_tags_body = ['body' => strip_tags($request->body)];\n        $validator = Validator::make($stripped_tags_body, [\n            'body' => 'required|min:10',\n        ]);\n\n        if ($validator->fails()) {\n            return back()->withErrors($validator)->withInput();\n        }\n\n        $post = Models::post()->find($id);\n        if (!Auth::guest() && (Auth::user()->id == $post->user_id)) {\n            $post->body = $request->body;\n            $post->save();\n\n            $discussion = Models::discussion()->find($post->chatter_discussion_id);\n\n            $category = Models::category()->find($discussion->chatter_category_id);\n            if (!isset($category->slug)) {\n                $category = Models::category()->first();\n            }\n\n            $chatter_alert = [\n                'chatter_alert_type' => 'success',\n                'chatter_alert'      => 'Successfully updated the '.config('chatter.titles.discussion').'.',\n                ];\n\n            return redirect('/'.config('chatter.routes.home').'/'.config('chatter.routes.discussion').'/'.$category->slug.'/'.$discussion->slug)->with($chatter_alert);\n        } else {\n            $chatter_alert = [\n                'chatter_alert_type' => 'danger',\n                'chatter_alert'      => 'Nah ah ah... Could not update your response. Make sure you\\'re not doing anything shady.',\n                ];\n\n            return redirect('/'.config('chatter.routes.home'))->with($chatter_alert);\n        }\n    }\n\n    /**\n     * Delete post.\n     *\n     * @param string $id\n     * @param  \\Illuminate\\Http\\Request\n     *\n     * @return \\Illuminate\\Routing\\Redirect\n     */\n    public function destroy($id, Request $request)\n    {\n        $post = Models::post()->with('discussion')->findOrFail($id);\n\n        if ($request->user()->id !== (int) $post->user_id) {\n            return redirect('/'.config('chatter.routes.home'))->with([\n                'chatter_alert_type' => 'danger',\n                'chatter_alert'      => 'Nah ah ah... Could not delete the response. Make sure you\\'re not doing anything shady.',\n            ]);\n        }\n\n        if ($post->discussion->posts()->oldest()->first()->id === $post->id) {\n            $post->discussion->posts()->delete();\n            $post->discussion()->delete();\n\n            return redirect('/'.config('chatter.routes.home'))->with([\n                'chatter_alert_type' => 'success',\n                'chatter_alert'      => 'Successfully deleted response and '.strtolower(config('chatter.titles.discussion')).'.',\n            ]);\n        }\n\n        $post->delete();\n\n        $url = '/'.config('chatter.routes.home').'/'.config('chatter.routes.discussion').'/'.$post->discussion->category->slug.'/'.$post->discussion->slug;\n\n        return redirect($url)->with([\n            'chatter_alert_type' => 'success',\n            'chatter_alert'      => 'Successfully deleted response from the '.config('chatter.titles.discussion').'.',\n        ]);\n    }\n}\n",
+			"file": "vendor/devdojo/chatter/src/Controllers/ChatterPostController.php",
+			"file_size": 7762,
+			"file_write_time": 131329757821129307,
+			"settings":
+			{
+				"buffer_size": 7762,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/vendor/pagination/simple-default.blade.php",
+			"settings":
+			{
+				"buffer_size": 578,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/vendor/notifications/email.blade.php",
+			"settings":
+			{
+				"buffer_size": 1079,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/lang/vendor/apidoc/en/rules.php",
+			"settings":
+			{
+				"buffer_size": 1766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/vendor/mail/html/promotion/button.blade.php",
+			"settings":
+			{
+				"buffer_size": 417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "codemirror/rollup.config.js",
+			"settings":
+			{
+				"buffer_size": 608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/mix-manifest.json",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.php",
+			"settings":
+			{
+				"buffer_size": 1782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Auth/RegisterController.php",
+			"settings":
+			{
+				"buffer_size": 3022,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 878,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/robots.txt",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/web.config",
+			"settings":
+			{
+				"buffer_size": 914,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/Authorization.php",
+			"settings":
+			{
+				"buffer_size": 3104,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/auth.php",
+			"settings":
+			{
+				"buffer_size": 3241,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 10234,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/ckeditor/config.js",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2017_03_02_164551_add_discord_settings_to_users_table.php",
+			"settings":
+			{
+				"buffer_size": 589,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+			"settings":
+			{
+				"buffer_size": 1416,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/UserDiscordSettingsController.php",
+			"settings":
+			{
+				"buffer_size": 502,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel-notification-channels/discord/src/Discord.php",
+			"settings":
+			{
+				"buffer_size": 2279,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/session.php",
+			"settings":
+			{
+				"buffer_size": 6267,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "commands/generateDocs.bat",
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootstrap/app.php",
+			"settings":
+			{
+				"buffer_size": 1602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php return array (\n  'providers' => \n  array (\n    0 => 'Illuminate\\\\Auth\\\\AuthServiceProvider',\n    1 => 'Illuminate\\\\Broadcasting\\\\BroadcastServiceProvider',\n    2 => 'Illuminate\\\\Bus\\\\BusServiceProvider',\n    3 => 'Illuminate\\\\Cache\\\\CacheServiceProvider',\n    4 => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    5 => 'Illuminate\\\\Cookie\\\\CookieServiceProvider',\n    6 => 'Illuminate\\\\Database\\\\DatabaseServiceProvider',\n    7 => 'Illuminate\\\\Encryption\\\\EncryptionServiceProvider',\n    8 => 'Illuminate\\\\Filesystem\\\\FilesystemServiceProvider',\n    9 => 'Illuminate\\\\Foundation\\\\Providers\\\\FoundationServiceProvider',\n    10 => 'Illuminate\\\\Hashing\\\\HashServiceProvider',\n    11 => 'Illuminate\\\\Mail\\\\MailServiceProvider',\n    12 => 'Illuminate\\\\Notifications\\\\NotificationServiceProvider',\n    13 => 'Illuminate\\\\Pagination\\\\PaginationServiceProvider',\n    14 => 'Illuminate\\\\Pipeline\\\\PipelineServiceProvider',\n    15 => 'Illuminate\\\\Queue\\\\QueueServiceProvider',\n    16 => 'Illuminate\\\\Redis\\\\RedisServiceProvider',\n    17 => 'Illuminate\\\\Auth\\\\Passwords\\\\PasswordResetServiceProvider',\n    18 => 'Illuminate\\\\Session\\\\SessionServiceProvider',\n    19 => 'Illuminate\\\\Translation\\\\TranslationServiceProvider',\n    20 => 'Illuminate\\\\Validation\\\\ValidationServiceProvider',\n    21 => 'Illuminate\\\\View\\\\ViewServiceProvider',\n    22 => 'Barryvdh\\\\Debugbar\\\\ServiceProvider',\n    23 => 'Cmgmyr\\\\Messenger\\\\MessengerServiceProvider',\n    24 => 'Laravel\\\\Tinker\\\\TinkerServiceProvider',\n    25 => 'Laravel\\\\Passport\\\\PassportServiceProvider',\n    26 => 'App\\\\Providers\\\\AppServiceProvider',\n    27 => 'App\\\\Providers\\\\AuthServiceProvider',\n    28 => 'EllipseSynergie\\\\ApiResponse\\\\Laravel\\\\ResponseServiceProvider',\n    29 => 'App\\\\Providers\\\\EventServiceProvider',\n    30 => 'App\\\\Providers\\\\RouteServiceProvider',\n    31 => 'Laravel\\\\Scout\\\\ScoutServiceProvider',\n    32 => 'GetStream\\\\StreamLaravel\\\\StreamLaravelServiceProvider',\n    33 => 'Collective\\\\Html\\\\HtmlServiceProvider',\n    34 => 'Mpociot\\\\ApiDoc\\\\ApiDocGeneratorServiceProvider',\n    35 => 'Asvae\\\\ApiTester\\\\ServiceProvider',\n    36 => 'Silber\\\\Bouncer\\\\BouncerServiceProvider',\n    37 => 'Conner\\\\Likeable\\\\LikeableServiceProvider',\n    38 => 'DevDojo\\\\Chatter\\\\ChatterServiceProvider',\n    39 => 'Hootlex\\\\Friendships\\\\FriendshipsServiceProvider',\n    40 => 'NotificationChannels\\\\Discord\\\\DiscordServiceProvider',\n  ),\n  'eager' => \n  array (\n    0 => 'Illuminate\\\\Auth\\\\AuthServiceProvider',\n    1 => 'Illuminate\\\\Cookie\\\\CookieServiceProvider',\n    2 => 'Illuminate\\\\Database\\\\DatabaseServiceProvider',\n    3 => 'Illuminate\\\\Encryption\\\\EncryptionServiceProvider',\n    4 => 'Illuminate\\\\Filesystem\\\\FilesystemServiceProvider',\n    5 => 'Illuminate\\\\Foundation\\\\Providers\\\\FoundationServiceProvider',\n    6 => 'Illuminate\\\\Notifications\\\\NotificationServiceProvider',\n    7 => 'Illuminate\\\\Pagination\\\\PaginationServiceProvider',\n    8 => 'Illuminate\\\\Session\\\\SessionServiceProvider',\n    9 => 'Illuminate\\\\View\\\\ViewServiceProvider',\n    10 => 'Barryvdh\\\\Debugbar\\\\ServiceProvider',\n    11 => 'Cmgmyr\\\\Messenger\\\\MessengerServiceProvider',\n    12 => 'Laravel\\\\Passport\\\\PassportServiceProvider',\n    13 => 'App\\\\Providers\\\\AppServiceProvider',\n    14 => 'App\\\\Providers\\\\AuthServiceProvider',\n    15 => 'EllipseSynergie\\\\ApiResponse\\\\Laravel\\\\ResponseServiceProvider',\n    16 => 'App\\\\Providers\\\\EventServiceProvider',\n    17 => 'App\\\\Providers\\\\RouteServiceProvider',\n    18 => 'Laravel\\\\Scout\\\\ScoutServiceProvider',\n    19 => 'GetStream\\\\StreamLaravel\\\\StreamLaravelServiceProvider',\n    20 => 'Mpociot\\\\ApiDoc\\\\ApiDocGeneratorServiceProvider',\n    21 => 'Asvae\\\\ApiTester\\\\ServiceProvider',\n    22 => 'Silber\\\\Bouncer\\\\BouncerServiceProvider',\n    23 => 'Conner\\\\Likeable\\\\LikeableServiceProvider',\n    24 => 'DevDojo\\\\Chatter\\\\ChatterServiceProvider',\n    25 => 'Hootlex\\\\Friendships\\\\FriendshipsServiceProvider',\n    26 => 'NotificationChannels\\\\Discord\\\\DiscordServiceProvider',\n  ),\n  'deferred' => \n  array (\n    'Illuminate\\\\Broadcasting\\\\BroadcastManager' => 'Illuminate\\\\Broadcasting\\\\BroadcastServiceProvider',\n    'Illuminate\\\\Contracts\\\\Broadcasting\\\\Factory' => 'Illuminate\\\\Broadcasting\\\\BroadcastServiceProvider',\n    'Illuminate\\\\Contracts\\\\Broadcasting\\\\Broadcaster' => 'Illuminate\\\\Broadcasting\\\\BroadcastServiceProvider',\n    'Illuminate\\\\Bus\\\\Dispatcher' => 'Illuminate\\\\Bus\\\\BusServiceProvider',\n    'Illuminate\\\\Contracts\\\\Bus\\\\Dispatcher' => 'Illuminate\\\\Bus\\\\BusServiceProvider',\n    'Illuminate\\\\Contracts\\\\Bus\\\\QueueingDispatcher' => 'Illuminate\\\\Bus\\\\BusServiceProvider',\n    'cache' => 'Illuminate\\\\Cache\\\\CacheServiceProvider',\n    'cache.store' => 'Illuminate\\\\Cache\\\\CacheServiceProvider',\n    'memcached.connector' => 'Illuminate\\\\Cache\\\\CacheServiceProvider',\n    'command.cache.clear' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.cache.forget' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.clear-compiled' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.auth.resets.clear' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.config.cache' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.config.clear' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.down' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.environment' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.key.generate' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.migrate' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.migrate.install' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.migrate.refresh' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.migrate.reset' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.migrate.rollback' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.migrate.status' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.optimize' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.failed' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.flush' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.forget' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.listen' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.restart' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.retry' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.work' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.route.cache' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.route.clear' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.route.list' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.seed' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'Illuminate\\\\Console\\\\Scheduling\\\\ScheduleFinishCommand' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'Illuminate\\\\Console\\\\Scheduling\\\\ScheduleRunCommand' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.storage.link' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.up' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.view.clear' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.app.name' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.auth.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.cache.table' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.console.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.controller.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.event.generate' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.event.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.job.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.listener.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.mail.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.middleware.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.migrate.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.model.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.notification.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.notification.table' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.policy.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.provider.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.failed-table' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.queue.table' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.request.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.seeder.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.session.table' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.serve' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.test.make' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'command.vendor.publish' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'migrator' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'migration.repository' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'migration.creator' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'composer' => 'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider',\n    'hash' => 'Illuminate\\\\Hashing\\\\HashServiceProvider',\n    'mailer' => 'Illuminate\\\\Mail\\\\MailServiceProvider',\n    'swift.mailer' => 'Illuminate\\\\Mail\\\\MailServiceProvider',\n    'swift.transport' => 'Illuminate\\\\Mail\\\\MailServiceProvider',\n    'Illuminate\\\\Mail\\\\Markdown' => 'Illuminate\\\\Mail\\\\MailServiceProvider',\n    'Illuminate\\\\Contracts\\\\Pipeline\\\\Hub' => 'Illuminate\\\\Pipeline\\\\PipelineServiceProvider',\n    'queue' => 'Illuminate\\\\Queue\\\\QueueServiceProvider',\n    'queue.worker' => 'Illuminate\\\\Queue\\\\QueueServiceProvider',\n    'queue.listener' => 'Illuminate\\\\Queue\\\\QueueServiceProvider',\n    'queue.failer' => 'Illuminate\\\\Queue\\\\QueueServiceProvider',\n    'queue.connection' => 'Illuminate\\\\Queue\\\\QueueServiceProvider',\n    'redis' => 'Illuminate\\\\Redis\\\\RedisServiceProvider',\n    'redis.connection' => 'Illuminate\\\\Redis\\\\RedisServiceProvider',\n    'auth.password' => 'Illuminate\\\\Auth\\\\Passwords\\\\PasswordResetServiceProvider',\n    'auth.password.broker' => 'Illuminate\\\\Auth\\\\Passwords\\\\PasswordResetServiceProvider',\n    'translator' => 'Illuminate\\\\Translation\\\\TranslationServiceProvider',\n    'translation.loader' => 'Illuminate\\\\Translation\\\\TranslationServiceProvider',\n    'validator' => 'Illuminate\\\\Validation\\\\ValidationServiceProvider',\n    'validation.presence' => 'Illuminate\\\\Validation\\\\ValidationServiceProvider',\n    'command.tinker' => 'Laravel\\\\Tinker\\\\TinkerServiceProvider',\n    'html' => 'Collective\\\\Html\\\\HtmlServiceProvider',\n    'form' => 'Collective\\\\Html\\\\HtmlServiceProvider',\n    'Collective\\\\Html\\\\HtmlBuilder' => 'Collective\\\\Html\\\\HtmlServiceProvider',\n    'Collective\\\\Html\\\\FormBuilder' => 'Collective\\\\Html\\\\HtmlServiceProvider',\n  ),\n  'when' => \n  array (\n    'Illuminate\\\\Broadcasting\\\\BroadcastServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Bus\\\\BusServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Cache\\\\CacheServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Foundation\\\\Providers\\\\ConsoleSupportServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Hashing\\\\HashServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Mail\\\\MailServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Pipeline\\\\PipelineServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Queue\\\\QueueServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Redis\\\\RedisServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Auth\\\\Passwords\\\\PasswordResetServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Translation\\\\TranslationServiceProvider' => \n    array (\n    ),\n    'Illuminate\\\\Validation\\\\ValidationServiceProvider' => \n    array (\n    ),\n    'Laravel\\\\Tinker\\\\TinkerServiceProvider' => \n    array (\n    ),\n    'Collective\\\\Html\\\\HtmlServiceProvider' => \n    array (\n    ),\n  ),\n);",
+			"file": "bootstrap/cache/services.php",
+			"file_size": 13441,
+			"file_write_time": 131330460368162696,
+			"settings":
+			{
+				"buffer_size": 13549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Providers/BroadcastServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Providers/AuthServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 1186,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/SecondaryInventory.php",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/get-stream/stream-laravel/src/GetStream/StreamLaravel/Eloquent/ActivityTrait.php",
+			"settings":
+			{
+				"buffer_size": 3559,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/get-stream/stream-laravel/src/GetStream/StreamLaravel/Eloquent/Utils.php",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/league/oauth2-server/src/Grant/AbstractAuthorizeGrant.php",
+			"settings":
+			{
+				"buffer_size": 717,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/league/oauth2-server/src/Grant/AbstractGrant.php",
+			"settings":
+			{
+				"buffer_size": 15707,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/league/oauth2-server/src/Grant/ClientCredentialsGrant.php",
+			"settings":
+			{
+				"buffer_size": 1423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 3181,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Providers/AppServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Policies/SecondaryInventoryPolicy.php",
+			"settings":
+			{
+				"buffer_size": 1488,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Listeners/RevokeOldTokens.php",
+			"settings":
+			{
+				"buffer_size": 515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Middleware/LogLastUserActivity.php",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Middleware/VerifyCsrfToken.php",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Console/Kernel.php",
+			"settings":
+			{
+				"buffer_size": 819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Bridge/AuthCode.php",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Bridge/AuthCodeRepository.php",
+			"settings":
+			{
+				"buffer_size": 1819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Bridge/Client.php",
+			"settings":
+			{
+				"buffer_size": 668,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Bridge/RefreshToken.php",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Http/Controllers/AccessTokenController.php",
+			"settings":
+			{
+				"buffer_size": 1551,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Http/Controllers/HandlesOAuthErrors.php",
+			"settings":
+			{
+				"buffer_size": 1369,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Http/Controllers/ClientController.php",
+			"settings":
+			{
+				"buffer_size": 2802,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Listeners/PruneOldTokens.php",
+			"settings":
+			{
+				"buffer_size": 517,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Kernel.php",
+			"settings":
+			{
+				"buffer_size": 2265,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Http/Middleware/CheckForAnyScope.php",
+			"settings":
+			{
+				"buffer_size": 789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Http/Middleware/CheckClientCredentials.php",
+			"settings":
+			{
+				"buffer_size": 1628,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "proxy.php",
+			"settings":
+			{
+				"buffer_size": 1572,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "require_once \"bootstrap/autoload.php\";"
+			}
+		},
+		{
+			"file": "cacert.pem",
+			"settings":
+			{
+				"buffer_size": 261888,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/php/cacert.pem",
+			"settings":
+			{
+				"buffer_size": 261888,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/get-stream/stream-laravel/src/GetStream/StreamLaravel/StreamLaravelManager.php",
+			"settings":
+			{
+				"buffer_size": 2655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/get-stream/stream-laravel/src/config/config.php",
+			"settings":
+			{
+				"buffer_size": 1840,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/get-stream/stream-laravel/tests/ActivityTest.php",
+			"settings":
+			{
+				"buffer_size": 1407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\nnamespace GuzzleHttp;\n\n/**\n * Expands URI templates. Userland implementation of PECL uri_template.\n *\n * @link http://tools.ietf.org/html/rfc6570\n */\nclass UriTemplate\n{\n    /** @var string URI template */\n    private $template;\n\n    /** @var array Variables to use in the template expansion */\n    private $variables;\n\n    /** @var array Hash for quick operator lookups */\n    private static $operatorHash = [\n        ''  => ['prefix' => '',  'joiner' => ',', 'query' => false],\n        '+' => ['prefix' => '',  'joiner' => ',', 'query' => false],\n        '#' => ['prefix' => '#', 'joiner' => ',', 'query' => false],\n        '.' => ['prefix' => '.', 'joiner' => '.', 'query' => false],\n        '/' => ['prefix' => '/', 'joiner' => '/', 'query' => false],\n        ';' => ['prefix' => ';', 'joiner' => ';', 'query' => true],\n        '?' => ['prefix' => '?', 'joiner' => '&', 'query' => true],\n        '&' => ['prefix' => '&', 'joiner' => '&', 'query' => true]\n    ];\n\n    /** @var array Delimiters */\n    private static $delims = [':', '/', '?', '#', '[', ']', '@', '!', '$',\n        '&', '\\'', '(', ')', '*', '+', ',', ';', '='];\n\n    /** @var array Percent encoded delimiters */\n    private static $delimsPct = ['%3A', '%2F', '%3F', '%23', '%5B', '%5D',\n        '%40', '%21', '%24', '%26', '%27', '%28', '%29', '%2A', '%2B', '%2C',\n        '%3B', '%3D'];\n\n    public function expand($template, array $variables)\n    {\n        if (false === strpos($template, '{')) {\n            return $template;\n        }\n\n        $this->template = $template;\n        $this->variables = $variables;\n\n        return preg_replace_callback(\n            '/\\{([^\\}]+)\\}/',\n            [$this, 'expandMatch'],\n            $this->template\n        );\n    }\n\n    /**\n     * Parse an expression into parts\n     *\n     * @param string $expression Expression to parse\n     *\n     * @return array Returns an associative array of parts\n     */\n    private function parseExpression($expression)\n    {\n        $result = [];\n\n        if (isset(self::$operatorHash[$expression[0]])) {\n            $result['operator'] = $expression[0];\n            $expression = substr($expression, 1);\n        } else {\n            $result['operator'] = '';\n        }\n\n        foreach (explode(',', $expression) as $value) {\n            $value = trim($value);\n            $varspec = [];\n            if ($colonPos = strpos($value, ':')) {\n                $varspec['value'] = substr($value, 0, $colonPos);\n                $varspec['modifier'] = ':';\n                $varspec['position'] = (int) substr($value, $colonPos + 1);\n            } elseif (substr($value, -1) === '*') {\n                $varspec['modifier'] = '*';\n                $varspec['value'] = substr($value, 0, -1);\n            } else {\n                $varspec['value'] = (string) $value;\n                $varspec['modifier'] = '';\n            }\n            $result['values'][] = $varspec;\n        }\n\n        return $result;\n    }\n\n    /**\n     * Process an expansion\n     *\n     * @param array $matches Matches met in the preg_replace_callback\n     *\n     * @return string Returns the replacement string\n     */\n    private function expandMatch(array $matches)\n    {\n        static $rfc1738to3986 = ['+' => '%20', '%7e' => '~'];\n\n        $replacements = [];\n        $parsed = self::parseExpression($matches[1]);\n        $prefix = self::$operatorHash[$parsed['operator']]['prefix'];\n        $joiner = self::$operatorHash[$parsed['operator']]['joiner'];\n        $useQuery = self::$operatorHash[$parsed['operator']]['query'];\n\n        foreach ($parsed['values'] as $value) {\n\n            if (!isset($this->variables[$value['value']])) {\n                continue;\n            }\n\n            $variable = $this->variables[$value['value']];\n            $actuallyUseQuery = $useQuery;\n            $expanded = '';\n\n            if (is_array($variable)) {\n\n                $isAssoc = $this->isAssoc($variable);\n                $kvp = [];\n                foreach ($variable as $key => $var) {\n\n                    if ($isAssoc) {\n                        $key = rawurlencode($key);\n                        $isNestedArray = is_array($var);\n                    } else {\n                        $isNestedArray = false;\n                    }\n\n                    if (!$isNestedArray) {\n                        $var = rawurlencode($var);\n                        if ($parsed['operator'] === '+' ||\n                            $parsed['operator'] === '#'\n                        ) {\n                            $var = $this->decodeReserved($var);\n                        }\n                    }\n\n                    if ($value['modifier'] === '*') {\n                        if ($isAssoc) {\n                            if ($isNestedArray) {\n                                // Nested arrays must allow for deeply nested\n                                // structures.\n                                $var = strtr(\n                                    http_build_query([$key => $var]),\n                                    $rfc1738to3986\n                                );\n                            } else {\n                                $var = $key . '=' . $var;\n                            }\n                        } elseif ($key > 0 && $actuallyUseQuery) {\n                            $var = $value['value'] . '=' . $var;\n                        }\n                    }\n\n                    $kvp[$key] = $var;\n                }\n\n                if (empty($variable)) {\n                    $actuallyUseQuery = false;\n                } elseif ($value['modifier'] === '*') {\n                    $expanded = implode($joiner, $kvp);\n                    if ($isAssoc) {\n                        // Don't prepend the value name when using the explode\n                        // modifier with an associative array.\n                        $actuallyUseQuery = false;\n                    }\n                } else {\n                    if ($isAssoc) {\n                        // When an associative array is encountered and the\n                        // explode modifier is not set, then the result must be\n                        // a comma separated list of keys followed by their\n                        // respective values.\n                        foreach ($kvp as $k => &$v) {\n                            $v = $k . ',' . $v;\n                        }\n                    }\n                    $expanded = implode(',', $kvp);\n                }\n\n            } else {\n                if ($value['modifier'] === ':') {\n                    $variable = substr($variable, 0, $value['position']);\n                }\n                $expanded = rawurlencode($variable);\n                if ($parsed['operator'] === '+' || $parsed['operator'] === '#') {\n                    $expanded = $this->decodeReserved($expanded);\n                }\n            }\n\n            if ($actuallyUseQuery) {\n                if (!$expanded && $joiner !== '&') {\n                    $expanded = $value['value'];\n                } else {\n                    $expanded = $value['value'] . '=' . $expanded;\n                }\n            }\n\n            $replacements[] = $expanded;\n        }\n\n        $ret = implode($joiner, $replacements);\n        if ($ret && $prefix) {\n            return $prefix . $ret;\n        }\n\n        return $ret;\n    }\n\n    /**\n     * Determines if an array is associative.\n     *\n     * This makes the assumption that input arrays are sequences or hashes.\n     * This assumption is a tradeoff for accuracy in favor of speed, but it\n     * should work in almost every case where input is supplied for a URI\n     * template.\n     *\n     * @param array $array Array to check\n     *\n     * @return bool\n     */\n    private function isAssoc(array $array)\n    {\n        return $array && array_keys($array)[0] !== 0;\n    }\n\n    /**\n     * Removes percent encoding on reserved characters (used with + and #\n     * modifiers).\n     *\n     * @param string $string String to fix\n     *\n     * @return string\n     */\n    private function decodeReserved($string)\n    {\n        return str_replace(self::$delimsPct, self::$delims, $string);\n    }\n}\n",
+			"file": "vendor/guzzlehttp/guzzle/src/UriTemplate.php",
+			"file_size": 8122,
+			"file_write_time": 131325462420000000,
+			"settings":
+			{
+				"buffer_size": 8122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\nnamespace GuzzleHttp\\Handler;\n\nuse GuzzleHttp\\Exception\\RequestException;\nuse GuzzleHttp\\Exception\\ConnectException;\nuse GuzzleHttp\\Promise\\FulfilledPromise;\nuse GuzzleHttp\\Promise\\RejectedPromise;\nuse GuzzleHttp\\Psr7;\nuse GuzzleHttp\\Psr7\\LazyOpenStream;\nuse GuzzleHttp\\TransferStats;\nuse Psr\\Http\\Message\\RequestInterface;\n\n/**\n * Creates curl resources from a request\n */\nclass CurlFactory implements CurlFactoryInterface\n{\n    /** @var array */\n    private $handles;\n\n    /** @var int Total number of idle handles to keep in cache */\n    private $maxHandles;\n\n    /**\n     * @param int $maxHandles Maximum number of idle handles.\n     */\n    public function __construct($maxHandles)\n    {\n        $this->maxHandles = $maxHandles;\n    }\n\n    public function create(RequestInterface $request, array $options)\n    {\n        if (isset($options['curl']['body_as_string'])) {\n            $options['_body_as_string'] = $options['curl']['body_as_string'];\n            unset($options['curl']['body_as_string']);\n        }\n\n        $easy = new EasyHandle;\n        $easy->request = $request;\n        $easy->options = $options;\n        $conf = $this->getDefaultConf($easy);\n        $this->applyMethod($easy, $conf);\n        $this->applyHandlerOptions($easy, $conf);\n        $this->applyHeaders($easy, $conf);\n        unset($conf['_headers']);\n\n        // Add handler options from the request configuration options\n        if (isset($options['curl'])) {\n            $conf = array_replace($conf, $options['curl']);\n        }\n\n        $conf[CURLOPT_HEADERFUNCTION] = $this->createHeaderFn($easy);\n        $easy->handle = $this->handles\n            ? array_pop($this->handles)\n            : curl_init();\n        curl_setopt_array($easy->handle, $conf);\n\n        return $easy;\n    }\n\n    public function release(EasyHandle $easy)\n    {\n        $resource = $easy->handle;\n        unset($easy->handle);\n\n        if (count($this->handles) >= $this->maxHandles) {\n            curl_close($resource);\n        } else {\n            // Remove all callback functions as they can hold onto references\n            // and are not cleaned up by curl_reset. Using curl_setopt_array\n            // does not work for some reason, so removing each one\n            // individually.\n            curl_setopt($resource, CURLOPT_HEADERFUNCTION, null);\n            curl_setopt($resource, CURLOPT_READFUNCTION, null);\n            curl_setopt($resource, CURLOPT_WRITEFUNCTION, null);\n            curl_setopt($resource, CURLOPT_PROGRESSFUNCTION, null);\n            curl_reset($resource);\n            $this->handles[] = $resource;\n        }\n    }\n\n    /**\n     * Completes a cURL transaction, either returning a response promise or a\n     * rejected promise.\n     *\n     * @param callable             $handler\n     * @param EasyHandle           $easy\n     * @param CurlFactoryInterface $factory Dictates how the handle is released\n     *\n     * @return \\GuzzleHttp\\Promise\\PromiseInterface\n     */\n    public static function finish(\n        callable $handler,\n        EasyHandle $easy,\n        CurlFactoryInterface $factory\n    ) {\n        if (isset($easy->options['on_stats'])) {\n            self::invokeStats($easy);\n        }\n\n        if (!$easy->response || $easy->errno) {\n            return self::finishError($handler, $easy, $factory);\n        }\n\n        // Return the response if it is present and there is no error.\n        $factory->release($easy);\n\n        // Rewind the body of the response if possible.\n        $body = $easy->response->getBody();\n        if ($body->isSeekable()) {\n            $body->rewind();\n        }\n\n        return new FulfilledPromise($easy->response);\n    }\n\n    private static function invokeStats(EasyHandle $easy)\n    {\n        $curlStats = curl_getinfo($easy->handle);\n        $stats = new TransferStats(\n            $easy->request,\n            $easy->response,\n            $curlStats['total_time'],\n            $easy->errno,\n            $curlStats\n        );\n        call_user_func($easy->options['on_stats'], $stats);\n    }\n\n    private static function finishError(\n        callable $handler,\n        EasyHandle $easy,\n        CurlFactoryInterface $factory\n    ) {\n        // Get error information and release the handle to the factory.\n        $ctx = [\n            'errno' => $easy->errno,\n            'error' => curl_error($easy->handle),\n        ] + curl_getinfo($easy->handle);\n        $factory->release($easy);\n\n        // Retry when nothing is present or when curl failed to rewind.\n        if (empty($easy->options['_err_message'])\n            && (!$easy->errno || $easy->errno == 65)\n        ) {\n            return self::retryFailedRewind($handler, $easy, $ctx);\n        }\n\n        return self::createRejection($easy, $ctx);\n    }\n\n    private static function createRejection(EasyHandle $easy, array $ctx)\n    {\n        static $connectionErrors = [\n            CURLE_OPERATION_TIMEOUTED  => true,\n            CURLE_COULDNT_RESOLVE_HOST => true,\n            CURLE_COULDNT_CONNECT      => true,\n            CURLE_SSL_CONNECT_ERROR    => true,\n            CURLE_GOT_NOTHING          => true,\n        ];\n\n        // If an exception was encountered during the onHeaders event, then\n        // return a rejected promise that wraps that exception.\n        if ($easy->onHeadersException) {\n            return new RejectedPromise(\n                new RequestException(\n                    'An error was encountered during the on_headers event',\n                    $easy->request,\n                    $easy->response,\n                    $easy->onHeadersException,\n                    $ctx\n                )\n            );\n        }\n\n        $message = sprintf(\n            'cURL error %s: %s (%s)',\n            $ctx['errno'],\n            $ctx['error'],\n            'see http://curl.haxx.se/libcurl/c/libcurl-errors.html'\n        );\n\n        // Create a connection exception if it was a specific error code.\n        $error = isset($connectionErrors[$easy->errno])\n            ? new ConnectException($message, $easy->request, null, $ctx)\n            : new RequestException($message, $easy->request, $easy->response, null, $ctx);\n\n        return new RejectedPromise($error);\n    }\n\n    private function getDefaultConf(EasyHandle $easy)\n    {\n        $conf = [\n            '_headers'             => $easy->request->getHeaders(),\n            CURLOPT_CUSTOMREQUEST  => $easy->request->getMethod(),\n            CURLOPT_URL            => (string) $easy->request->getUri()->withFragment(''),\n            CURLOPT_RETURNTRANSFER => false,\n            CURLOPT_HEADER         => false,\n            CURLOPT_CONNECTTIMEOUT => 150,\n        ];\n\n        if (defined('CURLOPT_PROTOCOLS')) {\n            $conf[CURLOPT_PROTOCOLS] = CURLPROTO_HTTP | CURLPROTO_HTTPS;\n        }\n\n        $version = $easy->request->getProtocolVersion();\n        if ($version == 1.1) {\n            $conf[CURLOPT_HTTP_VERSION] = CURL_HTTP_VERSION_1_1;\n        } elseif ($version == 2.0) {\n            $conf[CURLOPT_HTTP_VERSION] = CURL_HTTP_VERSION_2_0;\n        } else {\n            $conf[CURLOPT_HTTP_VERSION] = CURL_HTTP_VERSION_1_0;\n        }\n\n        return $conf;\n    }\n\n    private function applyMethod(EasyHandle $easy, array &$conf)\n    {\n        $body = $easy->request->getBody();\n        $size = $body->getSize();\n\n        if ($size === null || $size > 0) {\n            $this->applyBody($easy->request, $easy->options, $conf);\n            return;\n        }\n\n        $method = $easy->request->getMethod();\n        if ($method === 'PUT' || $method === 'POST') {\n            // See http://tools.ietf.org/html/rfc7230#section-3.3.2\n            if (!$easy->request->hasHeader('Content-Length')) {\n                $conf[CURLOPT_HTTPHEADER][] = 'Content-Length: 0';\n            }\n        } elseif ($method === 'HEAD') {\n            $conf[CURLOPT_NOBODY] = true;\n            unset(\n                $conf[CURLOPT_WRITEFUNCTION],\n                $conf[CURLOPT_READFUNCTION],\n                $conf[CURLOPT_FILE],\n                $conf[CURLOPT_INFILE]\n            );\n        }\n    }\n\n    private function applyBody(RequestInterface $request, array $options, array &$conf)\n    {\n        $size = $request->hasHeader('Content-Length')\n            ? (int) $request->getHeaderLine('Content-Length')\n            : null;\n\n        // Send the body as a string if the size is less than 1MB OR if the\n        // [curl][body_as_string] request value is set.\n        if (($size !== null && $size < 1000000) ||\n            !empty($options['_body_as_string'])\n        ) {\n            $conf[CURLOPT_POSTFIELDS] = (string) $request->getBody();\n            // Don't duplicate the Content-Length header\n            $this->removeHeader('Content-Length', $conf);\n            $this->removeHeader('Transfer-Encoding', $conf);\n        } else {\n            $conf[CURLOPT_UPLOAD] = true;\n            if ($size !== null) {\n                $conf[CURLOPT_INFILESIZE] = $size;\n                $this->removeHeader('Content-Length', $conf);\n            }\n            $body = $request->getBody();\n            if ($body->isSeekable()) {\n                $body->rewind();\n            }\n            $conf[CURLOPT_READFUNCTION] = function ($ch, $fd, $length) use ($body) {\n                return $body->read($length);\n            };\n        }\n\n        // If the Expect header is not present, prevent curl from adding it\n        if (!$request->hasHeader('Expect')) {\n            $conf[CURLOPT_HTTPHEADER][] = 'Expect:';\n        }\n\n        // cURL sometimes adds a content-type by default. Prevent this.\n        if (!$request->hasHeader('Content-Type')) {\n            $conf[CURLOPT_HTTPHEADER][] = 'Content-Type:';\n        }\n    }\n\n    private function applyHeaders(EasyHandle $easy, array &$conf)\n    {\n        foreach ($conf['_headers'] as $name => $values) {\n            foreach ($values as $value) {\n                $conf[CURLOPT_HTTPHEADER][] = \"$name: $value\";\n            }\n        }\n\n        // Remove the Accept header if one was not set\n        if (!$easy->request->hasHeader('Accept')) {\n            $conf[CURLOPT_HTTPHEADER][] = 'Accept:';\n        }\n    }\n\n    /**\n     * Remove a header from the options array.\n     *\n     * @param string $name    Case-insensitive header to remove\n     * @param array  $options Array of options to modify\n     */\n    private function removeHeader($name, array &$options)\n    {\n        foreach (array_keys($options['_headers']) as $key) {\n            if (!strcasecmp($key, $name)) {\n                unset($options['_headers'][$key]);\n                return;\n            }\n        }\n    }\n\n    private function applyHandlerOptions(EasyHandle $easy, array &$conf)\n    {\n        $options = $easy->options;\n        if (isset($options['verify'])) {\n            if ($options['verify'] === false) {\n                unset($conf[CURLOPT_CAINFO]);\n                $conf[CURLOPT_SSL_VERIFYHOST] = 0;\n                $conf[CURLOPT_SSL_VERIFYPEER] = false;\n            } else {\n                $conf[CURLOPT_SSL_VERIFYHOST] = 2;\n                $conf[CURLOPT_SSL_VERIFYPEER] = true;\n                if (is_string($options['verify'])) {\n                    $conf[CURLOPT_CAINFO] = $options['verify'];\n                    if (!file_exists($options['verify'])) {\n                        throw new \\InvalidArgumentException(\n                            \"SSL CA bundle not found: {$options['verify']}\"\n                        );\n                    }\n                }\n            }\n        }\n\n        if (!empty($options['decode_content'])) {\n            $accept = $easy->request->getHeaderLine('Accept-Encoding');\n            if ($accept) {\n                $conf[CURLOPT_ENCODING] = $accept;\n            } else {\n                $conf[CURLOPT_ENCODING] = '';\n                // Don't let curl send the header over the wire\n                $conf[CURLOPT_HTTPHEADER][] = 'Accept-Encoding:';\n            }\n        }\n\n        if (isset($options['sink'])) {\n            $sink = $options['sink'];\n            if (!is_string($sink)) {\n                $sink = \\GuzzleHttp\\Psr7\\stream_for($sink);\n            } elseif (!is_dir(dirname($sink))) {\n                // Ensure that the directory exists before failing in curl.\n                throw new \\RuntimeException(sprintf(\n                    'Directory %s does not exist for sink value of %s',\n                    dirname($sink),\n                    $sink\n                ));\n            } else {\n                $sink = new LazyOpenStream($sink, 'w+');\n            }\n            $easy->sink = $sink;\n            $conf[CURLOPT_WRITEFUNCTION] = function ($ch, $write) use ($sink) {\n                return $sink->write($write);\n            };\n        } else {\n            // Use a default temp stream if no sink was set.\n            $conf[CURLOPT_FILE] = fopen('php://temp', 'w+');\n            $easy->sink = Psr7\\stream_for($conf[CURLOPT_FILE]);\n        }\n\n        if (isset($options['timeout'])) {\n            $conf[CURLOPT_TIMEOUT_MS] = $options['timeout'] * 1000;\n        }\n\n        if (isset($options['connect_timeout'])) {\n            $conf[CURLOPT_CONNECTTIMEOUT_MS] = $options['connect_timeout'] * 1000;\n        }\n\n        if (isset($options['proxy'])) {\n            if (!is_array($options['proxy'])) {\n                $conf[CURLOPT_PROXY] = $options['proxy'];\n            } else {\n                $scheme = $easy->request->getUri()->getScheme();\n                if (isset($options['proxy'][$scheme])) {\n                    $host = $easy->request->getUri()->getHost();\n                    if (!isset($options['proxy']['no']) ||\n                        !\\GuzzleHttp\\is_host_in_noproxy($host, $options['proxy']['no'])\n                    ) {\n                        $conf[CURLOPT_PROXY] = $options['proxy'][$scheme];\n                    }\n                }\n            }\n        }\n\n        if (isset($options['cert'])) {\n            $cert = $options['cert'];\n            if (is_array($cert)) {\n                $conf[CURLOPT_SSLCERTPASSWD] = $cert[1];\n                $cert = $cert[0];\n            }\n            if (!file_exists($cert)) {\n                throw new \\InvalidArgumentException(\n                    \"SSL certificate not found: {$cert}\"\n                );\n            }\n            $conf[CURLOPT_SSLCERT] = $cert;\n        }\n\n        if (isset($options['ssl_key'])) {\n            $sslKey = $options['ssl_key'];\n            if (is_array($sslKey)) {\n                $conf[CURLOPT_SSLKEYPASSWD] = $sslKey[1];\n                $sslKey = $sslKey[0];\n            }\n            if (!file_exists($sslKey)) {\n                throw new \\InvalidArgumentException(\n                    \"SSL private key not found: {$sslKey}\"\n                );\n            }\n            $conf[CURLOPT_SSLKEY] = $sslKey;\n        }\n\n        if (isset($options['progress'])) {\n            $progress = $options['progress'];\n            if (!is_callable($progress)) {\n                throw new \\InvalidArgumentException(\n                    'progress client option must be callable'\n                );\n            }\n            $conf[CURLOPT_NOPROGRESS] = false;\n            $conf[CURLOPT_PROGRESSFUNCTION] = function () use ($progress) {\n                $args = func_get_args();\n                // PHP 5.5 pushed the handle onto the start of the args\n                if (is_resource($args[0])) {\n                    array_shift($args);\n                }\n                call_user_func_array($progress, $args);\n            };\n        }\n\n        if (!empty($options['debug'])) {\n            $conf[CURLOPT_STDERR] = \\GuzzleHttp\\debug_resource($options['debug']);\n            $conf[CURLOPT_VERBOSE] = true;\n        }\n    }\n\n    /**\n     * This function ensures that a response was set on a transaction. If one\n     * was not set, then the request is retried if possible. This error\n     * typically means you are sending a payload, curl encountered a\n     * \"Connection died, retrying a fresh connect\" error, tried to rewind the\n     * stream, and then encountered a \"necessary data rewind wasn't possible\"\n     * error, causing the request to be sent through curl_multi_info_read()\n     * without an error status.\n     */\n    private static function retryFailedRewind(\n        callable $handler,\n        EasyHandle $easy,\n        array $ctx\n    ) {\n        try {\n            // Only rewind if the body has been read from.\n            $body = $easy->request->getBody();\n            if ($body->tell() > 0) {\n                $body->rewind();\n            }\n        } catch (\\RuntimeException $e) {\n            $ctx['error'] = 'The connection unexpectedly failed without '\n                . 'providing an error. The request would have been retried, '\n                . 'but attempting to rewind the request body failed. '\n                . 'Exception: ' . $e;\n            return self::createRejection($easy, $ctx);\n        }\n\n        // Retry no more than 3 times before giving up.\n        if (!isset($easy->options['_curl_retries'])) {\n            $easy->options['_curl_retries'] = 1;\n        } elseif ($easy->options['_curl_retries'] == 2) {\n            $ctx['error'] = 'The cURL request was retried 3 times '\n                . 'and did not succeed. The most likely reason for the failure '\n                . 'is that cURL was unable to rewind the body of the request '\n                . 'and subsequent retries resulted in the same error. Turn on '\n                . 'the debug option to see what went wrong. See '\n                . 'https://bugs.php.net/bug.php?id=47204 for more information.';\n            return self::createRejection($easy, $ctx);\n        } else {\n            $easy->options['_curl_retries']++;\n        }\n\n        return $handler($easy->request, $easy->options);\n    }\n\n    private function createHeaderFn(EasyHandle $easy)\n    {\n        if (isset($easy->options['on_headers'])) {\n            $onHeaders = $easy->options['on_headers'];\n\n            if (!is_callable($onHeaders)) {\n                throw new \\InvalidArgumentException('on_headers must be callable');\n            }\n        } else {\n            $onHeaders = null;\n        }\n\n        return function ($ch, $h) use (\n            $onHeaders,\n            $easy,\n            &$startingResponse\n        ) {\n            $value = trim($h);\n            if ($value === '') {\n                $startingResponse = true;\n                $easy->createResponse();\n                if ($onHeaders !== null) {\n                    try {\n                        $onHeaders($easy->response);\n                    } catch (\\Exception $e) {\n                        // Associate the exception with the handle and trigger\n                        // a curl header write error by returning 0.\n                        $easy->onHeadersException = $e;\n                        return -1;\n                    }\n                }\n            } elseif ($startingResponse) {\n                $startingResponse = false;\n                $easy->headers = [$value];\n            } else {\n                $easy->headers[] = $value;\n            }\n            return strlen($h);\n        };\n    }\n}\n",
+			"file": "vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php",
+			"file_size": 19005,
+			"file_write_time": 131325462420000000,
+			"settings":
+			{
+				"buffer_size": 19005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1148268,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/passport/src/Http/Middleware/CheckScopes.php",
+			"settings":
+			{
+				"buffer_size": 785,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/SecondaryInventoryController.php",
+			"settings":
+			{
+				"buffer_size": 2247,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "storage/logs/laravel.log",
+			"settings":
+			{
+				"buffer_size": 11967983,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".htaccess",
+			"settings":
+			{
+				"buffer_size": 565,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2017_03_03_094422_create_regiments_table.php",
+			"settings":
+			{
+				"buffer_size": 648,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Regiment.php",
+			"settings":
+			{
+				"buffer_size": 169,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/RegimentAttributes.php",
+			"settings":
+			{
+				"buffer_size": 270,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2014_10_28_175635_create_threads_table.php",
+			"settings":
+			{
+				"buffer_size": 689,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/factories/ModelFactory.php",
+			"settings":
+			{
+				"buffer_size": 761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/DatabaseSeeder.php",
+			"settings":
+			{
+				"buffer_size": 241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1918,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Auth/LoginController.php",
+			"settings":
+			{
+				"buffer_size": 1011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/cartalyst/sentinel/src/Sentinel.php",
+			"settings":
+			{
+				"buffer_size": 23161,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/saberfrontdb2",
+		"/C/xampp/htdocs/saberfrontdb2/app",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/Auth",
+		"/C/xampp/htdocs/saberfrontdb2/app/Listeners",
+		"/C/xampp/htdocs/saberfrontdb2/app/Mail",
+		"/C/xampp/htdocs/saberfrontdb2/app/Notifications",
+		"/C/xampp/htdocs/saberfrontdb2/commands",
+		"/C/xampp/htdocs/saberfrontdb2/config",
+		"/C/xampp/htdocs/saberfrontdb2/css",
+		"/C/xampp/htdocs/saberfrontdb2/database",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations",
+		"/C/xampp/htdocs/saberfrontdb2/includes",
+		"/C/xampp/htdocs/saberfrontdb2/resources",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/auth",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/layouts",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/users",
+		"/C/xampp/htdocs/saberfrontdb2/routes",
+		"/C/xampp/htdocs/saberfrontdb2/vendor",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/dnoegel",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel-notification-channels",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel-notification-channels/discord",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel-notification-channels/discord/src"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/saberfrontdb2/plugins/tinymce/plugins/contextmenu/plugin.min.js",
+		"/C/Users/weldo/OneDrive/Documents/plugin.min.js",
+		"/C/xampp/htdocs/saberfrontdb2/plugins/tinymce/tinymce.min.js",
+		"/C/xampp/htdocs/saberfrontdb2/plugins/ckeditor/ckeditor.js",
+		"/C/xampp/htdocs/saberfrontdb2/config/chatter.php",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/devdojo/chatter/src/Routes/web.php",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2016_07_29_171118_create_chatter_discussion_table.php",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/devdojo/chatter/src/Controllers/ChatterDiscussionController.php",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/devdojo/chatter/config/chatter.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Notifications/RegimentAttributesUpdated.php",
+		"/C/Users/weldo/.ssh/id_rsa.pub",
+		"/C/Users/weldo/.ssh/id_rsa",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2017_02_27_175325_create_bouncer_tables.php",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2014_11_03_154831_add_soft_deletes_to_participants_table.php",
+		"/C/xampp/apache/conf/openssl.cnf",
+		"/C/xampp/htdocs/saberfrontdb2/commands/generateDocs.bat",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2017_02_27_045847_create_followers_table.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Policies/SecondaryInventoryPolicy.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/assets/js/app.js",
+		"/C/xampp/htdocs/saberfrontdb2/resources/assets/js/bootstrap.js",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Middleware/Groups.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/assets/js/components/passport/PersonalAccessTokens.vue",
+		"/C/xampp/htdocs/saberfrontdb2/app/Mail/EmailVerification.php",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel/passport/src/Http/Controllers/AuthorizationController.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Middleware/LogLastUserActivity.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/regimentAttributes/show.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/SecondaryInventory/index.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/regimentAttributes/index.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Follow.php",
+		"/C/xampp/htdocs/saberfrontdb2/.env",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2017_02_26_020148_create_secondary_inventory_table.php",
+		"/C/Users/weldo/cloud.rsa",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2017_02_24_234506_create_regiment_attributes.php",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2017_02_25_235225_create_notifications_table.php",
+		"/C/xampp/htdocs/saberfrontdb2/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/node_modules/vue-loader/index.js",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/emails/verification.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/assets/js/components/passport/Clients.vue",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel/passport/resources/assets/js/components/Clients.vue",
+		"/C/xampp/htdocs/saberfrontdb2/Gulpfile.js",
+		"/C/xampp/htdocs/saberfrontdb2/webpack.mix.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/setup/webpack.config.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack-dev-server/client/index.bundle.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack-dev-server/client/live.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack-dev-server/client/index.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack-dev-server/client/webpack.config.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack-dev-server/client/page.pug",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/web_modules/node-libs-browser.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/buildin/global.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/buildin/amd-define.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/buildin/module.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/buildin/harmony-module.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/buildin/amd-options.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/hot/dev-server.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/src/Manifest.js",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/DeveloperDashController.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/assets/js/components/passport/AuthorizedClients.vue",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/setup/webpack.mix.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/package.json",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/README.md",
+		"/C/xampp/htdocs/saberfrontdb2/public/mix-manifest.json",
+		"/C/xampp/htdocs/saberfrontdb2/index.php",
+		"/C/xampp/htdocs/saberfrontdb2/config/mail.php",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/.idea/modules.xml",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/.idea/laravel-mix.iml",
+		"/C/xampp/htdocs/saberfrontdb2/js/app.js",
+		"/C/xampp/htdocs/saberfrontdb2/database/phpliteadmin.config.php",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/cross-env/dist/index.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/webpack/bin/webpack.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/node_modules/webpack/lib/webpack.js",
+		"/C/xampp/htdocs/saberfrontdb2/node_modules/laravel-mix/node_modules/webpack/lib/Compilation.js",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/saberfrontdb2/config/auth.php",
+		"/C/xampp/htdocs/saberfrontdb2/routes/web.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/phpliteadmin.config.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/resources/views/home.blade.php",
+		"/C/xampp/htdocs/saberfrontdb2/config/app.php",
+		"/C/xampp/htdocs/saberfrontdb2/database/seeds/RegimentsTableSeeder.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/RegimentAttributesController.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/User.php",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/phpliteadmin.php",
+		"/C/xampp/htdocs/saberfrontdb2/js/app-jq.js",
+		"/C/xampp/htdocs/saberfrontdb2/css/app.css",
+		"/C/xampp/htdocs/saberfrontdb2/app/Regiment.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Providers/AuthServiceProvider.php",
+		"/C/xampp/htdocs/saberfrontdb2/app/Http/Controllers/RegimentController.php",
+		"/C/xampp/htdocs/saberfrontdb2/bootstrap/app.php",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php",
+		"/C/xampp/htdocs/saberfrontdb2/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/css/AdminLTE.css",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/css/AdminLTE.min.css",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/includes/Database.php",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/includes/Authorization.php",
+		"/C/xampp/htdocs/saberfrontdb2/database/seeds/DatabaseSeeder.php",
+		"/C/Users/weldo/Downloads/Animation1 (7).blockcode",
+		"/C/Users/weldo/AppData/Local/Temp/Temp1_phpLiteAdmin_v1-9-7-1.zip/phpliteadmin.config.sample.php",
+		"/C/Users/weldo/OneDrive/Trophies/TextMessageDecoder.cpp",
+		"/C/Users/weldo/OneDrive/Trophies/TMD2.cpp",
+		"/C/Users/weldo/OneDrive/Documents/Visual Studio 2015/Projects/CPPGames/CPPGames/Game.cpp",
+		"/C/Users/weldo/OneDrive/Documents/Visual Studio 2015/Projects/CPPGames/CPPGames/SimonSays.cpp",
+		"/C/Users/weldo/OneDrive/Documents/Visual Studio 2015/Projects/CPPGames/CPPGames/SimonSays.h",
+		"/C/Users/weldo/OneDrive/Documents/Visual Studio 2015/Projects/CPPGames/CPPGames/Game.h",
+		"/C/Users/weldo/OneDrive/Trophies/NumSummator.cpp",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/login.html",
+		"/C/Users/weldo/OneDrive/Trophies/SimonSays.cpp",
+		"/C/xampp/htdocs/developer/bootstrapLiteAdmin/includes/MicroTimer.php",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/templates/list/item.phtml",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/templates/checkbox.phtml",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/templates/navigation/logo.phtml",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/navigation.php",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/libraries/navigation/Navigation.php",
+		"/C/Users/weldo/Downloads/animationeditor.html",
+		"/C/Users/weldo/OneDrive/Documents/USFBPStudio/starter.html",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/templates/secondary_tabs.phtml",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/templates/header_location.phtml",
+		"/C/xampp/htdocs/developer/adminDev/bootstrapMyAdmin/libraries/config.values.php",
+		"/C/Users/weldo/google-blockly-android-5d6e739/blocklydemo/src/main/res/values/styles.xml",
+		"/C/Users/weldo/google-blockly-android-5d6e739/blocklydemo/src/main/res/values/strings.xml",
+		"/C/Users/weldo/google-blockly-android-5d6e739/blocklydemo/src/main/res/values/colors.xml"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"pusher",
+			"selection",
+			"ckeditor",
+			"/*\n",
+			"TQgBxwlU3kNvVozYXdTgmiFLlrwaEIxveET6XFzxgZ13rApwBNiMWe1l",
+			"vendor",
+			"}\n",
+			",\n",
+			"__webpack_require__",
+			"webpack_require__",
+			"accessToken",
+			"oauth",
+			"$",
+			"jQuery",
+			"=>",
+			"l=>",
+			"let",
+			"letvar",
+			"let",
+			"const",
+			"use",
+			"                        \n",
+			"label",
+			"glyphicons",
+			"woff",
+			"info-box",
+			"no-padding",
+			"><",
+			"row_edit",
+			"select2",
+			"\n ",
+			"row_view",
+			"warn0",
+			"view",
+			"?view=structure",
+			"body",
+			"b",
+			"a",
+			"html",
+			"param",
+			"()';\n",
+			"menu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\xampp\\htdocs\\saberfrontdb2"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 103,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								743,
+								743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 783.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/LoadoutController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1392.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/broadcasting.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1101,
+								1115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1044.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/layouts/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3606,
+								3606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3071.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2275,
+								2275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Mail/NewLoadoutMail.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								422
+							]
+						],
+						"settings":
+						{
+							"auto_name": "curl -s --user 'api:key-816ae1b94dcf4b83d62fc20b5c",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "composer.lock",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 233676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129812,
+								129812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 119911.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/weldo/OneDrive/Documents/composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/Notifications/NewLoadoutNotification.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "plugins/ckeditor/build-config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "resources/views/loadouts/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								501
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "config/services.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 377.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "resources/assets/js/components/passport/PersonalAccessTokens.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4108,
+								4108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 61,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "js/components/passport/PersonalAccessTokens.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 60,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/CustomLoadout.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1366,
+								1363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 638.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "resources/views/users/show.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10452,
+								10452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8784.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "vendor/laravel/passport/src/ClientRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 957.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1142,
+								1142
+							]
+						],
+						"settings":
+						{
+							"auto_name": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViMz",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "database/migrations/2017_03_03_105233_add_blurb_to_users_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "routes/channels.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 56,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "routes/console.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5220,
+								5220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "resources/views/users/search.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "resources/views/vendor/pagination/simple-bootstrap-4.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 54,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "resources/views/vendor/pagination/default.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 50,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "resources/views/vendor/pagination/bootstrap-4.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 48,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "vendor/devdojo/chatter/src/Views/email.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 47,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "vendor/devdojo/chatter/src/Views/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2290,
+								2290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5829.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 46,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "vendor/devdojo/chatter/src/Controllers/ChatterController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 43,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "vendor/devdojo/chatter/src/Controllers/ChatterPostController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 45,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "resources/views/vendor/pagination/simple-default.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 49,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "resources/views/vendor/notifications/email.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 52,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "resources/lang/vendor/apidoc/en/rules.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 51,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "resources/views/vendor/mail/html/promotion/button.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 53,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "codemirror/rollup.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 55,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "public/mix-manifest.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 102,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "public/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "app/Http/Controllers/Auth/RegisterController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2746,
+								2746
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "app/Http/Controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								709,
+								709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": "public/robots.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 101,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
+					"file": "public/web.config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 67,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "includes/Authorization.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 45,
+					"file": "config/auth.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2230,
+								2230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 493.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 46,
+					"file": "config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7527,
+								7527
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6902.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
+					"file": "plugins/ckeditor/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 48,
+					"file": "database/migrations/2017_03_02_164551_add_discord_settings_to_users_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 49,
+					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 50,
+					"file": "app/Http/Controllers/UserDiscordSettingsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 51,
+					"file": "vendor/laravel-notification-channels/discord/src/Discord.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 52,
+					"file": "config/session.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6257,
+								6261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6438.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 76,
+					"type": "text"
+				},
+				{
+					"buffer": 53,
+					"file": "commands/generateDocs.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 100,
+					"type": "text"
+				},
+				{
+					"buffer": 54,
+					"file": "bootstrap/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 203.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 55,
+					"file": "bootstrap/cache/services.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2593,
+								2593
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1595.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 56,
+					"file": "app/Providers/BroadcastServiceProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 99,
+					"type": "text"
+				},
+				{
+					"buffer": 57,
+					"file": "app/Providers/AuthServiceProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 725.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 88,
+					"type": "text"
+				},
+				{
+					"buffer": 58,
+					"file": "app/SecondaryInventory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 62,
+					"type": "text"
+				},
+				{
+					"buffer": 59,
+					"file": "vendor/get-stream/stream-laravel/src/GetStream/StreamLaravel/Eloquent/ActivityTrait.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2449,
+								2439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2958.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 64,
+					"type": "text"
+				},
+				{
+					"buffer": 60,
+					"file": "vendor/get-stream/stream-laravel/src/GetStream/StreamLaravel/Eloquent/Utils.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 63,
+					"type": "text"
+				},
+				{
+					"buffer": 61,
+					"file": "vendor/league/oauth2-server/src/Grant/AbstractAuthorizeGrant.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 96,
+					"type": "text"
+				},
+				{
+					"buffer": 62,
+					"file": "vendor/league/oauth2-server/src/Grant/AbstractGrant.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3649,
+								3649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 95,
+					"type": "text"
+				},
+				{
+					"buffer": 63,
+					"file": "vendor/league/oauth2-server/src/Grant/ClientCredentialsGrant.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 261.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 64,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1352,
+								1352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 65,
+					"file": "app/Providers/AppServiceProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 98,
+					"type": "text"
+				},
+				{
+					"buffer": 66,
+					"file": "app/Policies/SecondaryInventoryPolicy.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 97,
+					"type": "text"
+				},
+				{
+					"buffer": 67,
+					"file": "app/Listeners/RevokeOldTokens.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 87,
+					"type": "text"
+				},
+				{
+					"buffer": 68,
+					"file": "app/Http/Middleware/LogLastUserActivity.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 86,
+					"type": "text"
+				},
+				{
+					"buffer": 69,
+					"file": "app/Http/Middleware/VerifyCsrfToken.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 85,
+					"type": "text"
+				},
+				{
+					"buffer": 70,
+					"file": "app/Console/Kernel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 84,
+					"type": "text"
+				},
+				{
+					"buffer": 71,
+					"file": "vendor/laravel/passport/src/Bridge/AuthCode.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 83,
+					"type": "text"
+				},
+				{
+					"buffer": 72,
+					"file": "vendor/laravel/passport/src/Bridge/AuthCodeRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 82,
+					"type": "text"
+				},
+				{
+					"buffer": 73,
+					"file": "vendor/laravel/passport/src/Bridge/Client.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 81,
+					"type": "text"
+				},
+				{
+					"buffer": 74,
+					"file": "vendor/laravel/passport/src/Bridge/RefreshToken.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 80,
+					"type": "text"
+				},
+				{
+					"buffer": 75,
+					"file": "vendor/laravel/passport/src/Http/Controllers/AccessTokenController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1653.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 79,
+					"type": "text"
+				},
+				{
+					"buffer": 76,
+					"file": "vendor/laravel/passport/src/Http/Controllers/HandlesOAuthErrors.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 78,
+					"type": "text"
+				},
+				{
+					"buffer": 77,
+					"file": "vendor/laravel/passport/src/Http/Controllers/ClientController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 77,
+					"type": "text"
+				},
+				{
+					"buffer": 78,
+					"file": "app/Listeners/PruneOldTokens.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 92,
+					"type": "text"
+				},
+				{
+					"buffer": 79,
+					"file": "app/Http/Kernel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								904,
+								904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 91,
+					"type": "text"
+				},
+				{
+					"buffer": 80,
+					"file": "vendor/laravel/passport/src/Http/Middleware/CheckForAnyScope.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 89,
+					"type": "text"
+				},
+				{
+					"buffer": 81,
+					"file": "vendor/laravel/passport/src/Http/Middleware/CheckClientCredentials.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 75,
+					"type": "text"
+				},
+				{
+					"buffer": 82,
+					"file": "proxy.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								1437
+							]
+						],
+						"settings":
+						{
+							"auto_name": "require_once \"bootstrap/autoload.php\";",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 489.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 66,
+					"type": "text"
+				},
+				{
+					"buffer": 83,
+					"file": "cacert.pem",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								261888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 207259.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 69,
+					"type": "text"
+				},
+				{
+					"buffer": 84,
+					"file": "/C/xampp/php/cacert.pem",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261888,
+								261888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 207607.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 68,
+					"type": "text"
+				},
+				{
+					"buffer": 85,
+					"file": "vendor/get-stream/stream-laravel/src/GetStream/StreamLaravel/StreamLaravelManager.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 73,
+					"type": "text"
+				},
+				{
+					"buffer": 86,
+					"file": "vendor/get-stream/stream-laravel/src/config/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 72,
+					"type": "text"
+				},
+				{
+					"buffer": 87,
+					"file": "vendor/get-stream/stream-laravel/tests/ActivityTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 71,
+					"type": "text"
+				},
+				{
+					"buffer": 88,
+					"file": "vendor/guzzlehttp/guzzle/src/UriTemplate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 70,
+					"type": "text"
+				},
+				{
+					"buffer": 89,
+					"file": "vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3741.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 74,
+					"type": "text"
+				},
+				{
+					"buffer": 90,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1148268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332228,
+								332228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378702.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 59,
+					"type": "text"
+				},
+				{
+					"buffer": 91,
+					"file": "vendor/laravel/passport/src/Http/Middleware/CheckScopes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 90,
+					"type": "text"
+				},
+				{
+					"buffer": 92,
+					"file": "app/Http/Controllers/SecondaryInventoryController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 93,
+					"type": "text"
+				},
+				{
+					"buffer": 93,
+					"file": "storage/logs/laravel.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11967983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6479035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 65,
+					"type": "text"
+				},
+				{
+					"buffer": 94,
+					"file": ".htaccess",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 95,
+					"file": "database/migrations/2017_03_03_094422_create_regiments_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 96,
+					"file": "app/Regiment.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 97,
+					"file": "app/RegimentAttributes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 98,
+					"file": "database/migrations/2014_10_28_175635_create_threads_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 99,
+					"file": "database/factories/ModelFactory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 100,
+					"file": "database/seeds/DatabaseSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 101,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1875,
+								1875
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1537.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 58,
+					"type": "text"
+				},
+				{
+					"buffer": 102,
+					"file": "app/Http/Controllers/Auth/LoginController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 870.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 57,
+					"type": "text"
+				},
+				{
+					"buffer": 103,
+					"file": "vendor/cartalyst/sentinel/src/Sentinel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7095,
+								7095
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 94,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

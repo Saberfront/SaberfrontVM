@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Saberfront\Providers;
 use Bouncer;
 use Carbon\Carbon;
 use Laravel\Passport\Passport;
@@ -15,8 +15,8 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'App\Model' => 'App\Policies\ModelPolicy',
-        'App\SecondaryInventory' => 'App\Policies\SecondaryInventoryPolicy'
+        'Saberfront\Model' => 'Saberfront\Policies\ModelPolicy',
+        'Saberfront\SecondaryInventory' => 'Saberfront\Policies\SecondaryInventoryPolicy'
     ];
 
     /**

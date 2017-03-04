@@ -16,6 +16,7 @@ class CreateRegimentsTable extends Migration
         Schema::create("regiments",function(Blueprint $table){
              $table->increments("id");
              $table->string("name")->unique();
+             $table->timestamps();
             });
     }
 

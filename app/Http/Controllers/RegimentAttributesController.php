@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Saberfront\Http\Controllers;
 
-use App\RegimentAttributes;
+use Saberfront\RegimentAttributes;
 use DB;
 use Illuminate\Http\Request;
 
@@ -43,7 +43,7 @@ class RegimentAttributesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\RegimentAttributes  $regimentAttributes
+     * @param  \Saberfront\RegimentAttributes  $regimentAttributes
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -55,7 +55,7 @@ class RegimentAttributesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\RegimentAttributes  $regimentAttributes
+     * @param  \Saberfront\RegimentAttributes  $regimentAttributes
      * @return \Illuminate\Http\Response
      */
     public function edit(RegimentAttributes $regimentAttributes)
@@ -67,7 +67,7 @@ class RegimentAttributesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\RegimentAttributes  $regimentAttributes
+     * @param  \Saberfront\RegimentAttributes  $regimentAttributes
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, RegimentAttributes $regimentAttributes)
@@ -78,7 +78,7 @@ class RegimentAttributesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\RegimentAttributes  $regimentAttributes
+     * @param  \Saberfront\RegimentAttributes  $regimentAttributes
      * @return \Illuminate\Http\Response
      */
     public function destroy(RegimentAttributes $regimentAttributes)

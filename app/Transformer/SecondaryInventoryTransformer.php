@@ -1,7 +1,7 @@
 <?php
  
-namespace App\Transformer;
-use App\SecondaryInventory;
+namespace Saberfront\Transformer;
+use Saberfront\SecondaryInventory;
 
 class SecondaryInventoryTransformer {
  

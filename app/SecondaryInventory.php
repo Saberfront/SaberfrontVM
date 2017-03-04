@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Saberfront;
 use DB;
 use Illuminate\Database\Eloquent\Model;
 
