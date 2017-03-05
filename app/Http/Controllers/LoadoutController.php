@@ -67,8 +67,9 @@ class LoadoutController extends Controller
         $user->notify(new NewLoadoutNotification($loadout));
         return $loadout;
     }
-    public function apiIndex($userId){
-
+    public function apiIndex(){
+ $loadouts = CustomLoadout::paginate(15);
+return $this->response->withPaginator($loadouts, new LoadoutTransformer());
     }
     public function apiShow($id,$loadoutid){
         $user = User::find($id);

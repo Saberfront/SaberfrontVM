@@ -37,7 +37,7 @@ Route::get('/users/search', function (Request $request) {
         if($request->has('q')) {
 
             // Using the Laravel Scout syntax to search the products table.
-            $users = App\User::search($request->get('q'))->get();
+            $users = User::search($request->get('q'))->get();
 
             // If there are results return them, if none, return the error message.
                     return  view('users.search',['result' => $users->count() ? $users : $error]);
@@ -114,10 +114,13 @@ Route::group(array('prefix' => 'api/v1', 'middleware' => []), function () {
     // Custom route added to standard Resource
     // Standard Resource route
     Route::get('messages/create','MessagesController@create');
+
     Route::resource('messages', 'MessagesController');
 });
     return redirect('http://'.$_SERVER["SERVER_NAME"].'/saberfrontdb2/oauth/authorize?'.$query);
 });
+        Route::post('messages/craft','MessagesController@craft');
+
 Route::resource('loadouts','LoadoutController');
 Route::get('loadouts/create','LoadoutController@create');
 Route::post('loadouts/create','LoadoutController@store');
@@ -133,19 +136,31 @@ Route::post('users/{id}/changeSettings/blurb',function($id,Request $request){
 });
 Route::post('users/{id}/changeSettings/discord',"UserDiscordSettingsController@store");
 
-Route::post("/telephony",function($request){
-         $resp = Response::make(<<<TWIML
-        <Response>
-             <Say>Welcome to Saberfront Live</Say>
-        </Response>
-
-TWIML
-);
-         $resp->header('Content-Type', 'text/xml');
-         return $resp;
-
-
-
+Route::post("/telephony",function(){
+        return view("telephony.home");
+        
 
  
+});
+
+
+/**
+ * Teamwork routes
+ */
+Route::group(['prefix' => 'legions', 'namespace' => 'Teamwork'], function()
+{
+    Route::get('/', 'TeamController@index')->name('teams.index');
+    Route::get('create', 'TeamController@create')->name('teams.create');
+    Route::post('teams', 'TeamController@store')->name('teams.store');
+    Route::get('edit/{id}', 'TeamController@edit')->name('teams.edit');
+    Route::put('edit/{id}', 'TeamController@update')->name('teams.update');
+    Route::delete('destroy/{id}', 'TeamController@destroy')->name('teams.destroy');
+    Route::get('switch/{id}', 'TeamController@switchTeam')->name('teams.switch');
+
+    Route::get('members/{id}', 'TeamMemberController@show')->name('teams.members.show');
+    Route::get('members/resend/{invite_id}', 'TeamMemberController@resendInvite')->name('teams.members.resend_invite');
+    Route::post('members/{id}', 'TeamMemberController@invite')->name('teams.members.invite');
+    Route::delete('members/{id}/{user_id}', 'TeamMemberController@destroy')->name('teams.members.destroy');
+
+    Route::get('accept/{token}', 'AuthController@acceptInvite')->name('teams.accept_invite');
 });

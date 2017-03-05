@@ -12463,7 +12463,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 //
 //
-    var DS_ADDR = "https://25.31.70.190/saberfrontdb2";
+    var DS_ADDR = "https://saberfrontlive-acosf.c9users.io";
 
 /* harmony default export */ __webpack_exports__["default"] = {
     /*
@@ -12750,7 +12750,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 //
 //
 //
-    var DS_ADDR = "https://25.31.70.190/saberfrontdb2";
+    var DS_ADDR = "https://saberfrontlive-acosf.c9users.io";
 
 /* harmony default export */ __webpack_exports__["default"] = {
     /*
@@ -13065,7 +13065,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 //
 //
 
-    var DS_ADDR = "https://25.31.70.190/saberfrontdb2";
+    var DS_ADDR = "https://saberfrontlive-acosf.c9users.io";
 
 
 /* harmony default export */ __webpack_exports__["default"] = {

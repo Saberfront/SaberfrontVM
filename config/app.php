@@ -186,7 +186,8 @@ return [
         Conner\Likeable\LikeableServiceProvider::class,    Hootlex\Friendships\FriendshipsServiceProvider::class,
         NotificationChannels\Discord\DiscordServiceProvider::class,
 \Actuallymab\LaravelComment\LaravelCommentServiceProvider::class,
-Aloha\Twilio\Support\Laravel\ServiceProvider::class
+Aloha\Twilio\Support\Laravel\ServiceProvider::class,
+Mpociot\Teamwork\TeamworkServiceProvider::class
         ],
 
     /*

@@ -14,6 +14,7 @@ use Silber\Bouncer\Database\HasRolesAndAbilities;
 use Hootlex\Friendships\Traits\Friendable;
 use Illuminate\Support\Facades\Auth;
 use Actuallymab\LaravelComment\CanComment;
+use Mpociot\Teamwork\Traits\UserHasTeams;
 
 use Cmgmyr\Messenger\Models\Message;
 use Cmgmyr\Messenger\Models\Participant;
@@ -30,6 +31,7 @@ class User extends Authenticatable
     use HasRolesAndAbilities;
     use Friendable;
     use CanComment;
+    use UserHasTeams;
     /*
      * The attributes that are mass assignable.
      *

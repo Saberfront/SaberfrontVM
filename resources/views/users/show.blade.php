@@ -2,8 +2,8 @@
 
 @section('content')
 @php
-use App\User;
-use App\CustomLoadout;
+use Saberfront\User;
+use Saberfront\CustomLoadout;
 use Carbon\Carbon;
 function getTimeFromActTypeArrayStyle($actType,$act){
   switch($actType){
@@ -52,7 +52,7 @@ function getTimeFromActTypeArrayStyle($actType,$act){
                   <b>Friends</b> <a class="pull-right">0</a>
                 </li>
               </ul>
-<form action ="{{ url('/follow') }}" method="POST">
+<form action ="{{ secure_url('/follow') }}" method="POST">
 <input type="hidden" name="user" value="{{ Auth::user()->id}}">
 <input type="hidden" name="follow_id" value="{{$user->id}}">                   <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
               <button type="submit" href="" class="btn btn-primary btn-block"><b>Follow</b></button>
@@ -83,14 +83,16 @@ function getTimeFromActTypeArrayStyle($actType,$act){
 
               <hr>
 
-              <strong><i class="fa fa-pencil margin-r-5"></i> Skills</strong>
+              <strong><i class="ion ion-speakerphone margin-r-5"></i> Legions</strong>
 
               <p>
-                <span class="label label-danger">UI Design</span>
-                <span class="label label-success">Coding</span>
-                <span class="label label-info">Javascript</span>
-                <span class="label label-warning">PHP</span>
-                <span class="label label-primary">Node.js</span>
+                @foreach ($user->teams as $team)
+                @if($user->isOwnerOfTeam($team)) 
+                <span class="label label-success">{{$team->name}}</span>
+                @else
+                <span class="label label-primary">{{$team->name}}</span>
+                @endif
+                @endforeach
               </p>
 
               <hr>
@@ -144,7 +146,7 @@ function getTimeFromActTypeArrayStyle($actType,$act){
                      
                   </ul>
 @if ($activity["type"] == "loadout")
-<form action="{{ url('/loadouts/' . substr($activity['object'],strpos($activity['object'],':')+1).'/comment')}}" method="post"><div class="input-group">
+<form action="{{ secure_url('/loadouts/' . substr($activity['object'],strpos($activity['object'],':')+1).'/comment')}}" method="post"><div class="input-group">
 
                   <input class="form-control"  type="text" name="commentBody" placeholder="Type a comment" >
                                         <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
@@ -184,7 +186,7 @@ function getTimeFromActTypeArrayStyle($actType,$act){
                     <div class="timeline-item">
                       <span class="time"><i class="fa fa-clock-o"></i>{{$loadout->created_at->diffForHumans()}}</span>
 
-                      <h3 class="timeline-header"><a href="{{ url('/users/' . $user->id) }}">{{$user->name}}</a> created the Loadout "{{$loadout->loadout_name}}"</h3>
+                      <h3 class="timeline-header"><a href="{{ secure_url('/users/' . $user->id) }}">{{$user->name}}</a> created the Loadout "{{$loadout->loadout_name}}"</h3>
 
                       <div class="timeline-body">
                         This loadout contains of the {{ $loadout->weapon_name}} and the {{$loadout->secondary_name}} blasters. 
@@ -192,7 +194,7 @@ function getTimeFromActTypeArrayStyle($actType,$act){
                       </div>
                       <div class="timeline-footer">
                       @if (!Auth::guest())
-                      <form name="like_action" id="like" action="{{ url('/loadouts/like') }}" method="post">
+                      <form name="like_action" id="like" action="{{ secure_url('/loadouts/like') }}" method="post">
                       <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
                       <input type="hidden" name="id" value="{{ $loadout->id }}">
 
@@ -230,7 +232,7 @@ function getTimeFromActTypeArrayStyle($actType,$act){
 
               <div class="tab-pane" id="settings">
               @if (Auth::user()->id == $user->id)
-               <form class="form-horizontal" method="POST" action="{{ url('users/' . $user->id . '/changeSettings/discord')}}">
+               <form class="form-horizontal" method="POST" action="{{ secure_url('users/' . $user->id . '/changeSettings/discord')}}">
                 <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
                   <div class="form-group has-feedback">
                     <label for="discordUserId" class="col-sm-2 control-label">My Discord ID</label>
@@ -250,7 +252,7 @@ function getTimeFromActTypeArrayStyle($actType,$act){
                   </div>
                   
                 </form>
-                <form class="form-horizontal" method="POST" action="{{ url('users/' . $user->id . '/changeSettings/blurb')}}">
+                <form class="form-horizontal" method="POST" action="{{ secure_url('users/' . $user->id . '/changeSettings/blurb')}}">
                 <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
                   <div class="form-group">
                     <label for="inputBlurb" class="col-sm-2 control-label">My Blurb</label>

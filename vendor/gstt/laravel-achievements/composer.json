@@ -1,0 +1,22 @@
+{
+    "name": "gstt/laravel-achievements",
+    "description": "Achievements for Laravel 5.3+",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Simonetti",
+            "email": "simonettigo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/Migrations"
+        ],
+        "psr-0": {
+            "Gstt\\Achievements\\": "src/"
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^3.5"
+    }
+}

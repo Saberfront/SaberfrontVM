@@ -110,7 +110,7 @@
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="{{ ($thread->isUnread($currentUserId)) ? 'fa fa-star-o' : 'fa fa-star' }}  text-yellow"></i></a></td>
                     <td class="mailbox-name">{!! link_to('messages/' . $thread->id, $thread->subject) !!}</td>
-                    <td class="mailbox-subject"><b>{{ $thread->creator()->name }}</b> - {{ $thread->latestMessage->body }}
+                    <td class="mailbox-subject"><b>{{ $thread->creator()->name }}</b> - {!! $thread->latestMessage->body !!}
                     </td>
                     <td class="mailbox-attachment"></td>
                     <td class="mailbox-date">{{ $thread->latestMessage->created_at->diffForHumans() }}</td>

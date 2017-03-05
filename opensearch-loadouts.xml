@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>Saberfront VM Loadout Search</ShortName>
+   <Description>Use Saberfront VM to search for allies and friends on Saberfront</Description>
+   <Tags>VM Saberfront BigData Web</Tags>
+   <Contact>saberfront-studios@googlegroups.com</Contact>
+   <Url type="text/html" 
+        template="http://saberfrontlive-acosf.c9users.io/loadouts/search?q={searchTerms}"/>
+ </OpenSearchDescription>

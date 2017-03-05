@@ -8,6 +8,7 @@ use Bouncer;
 use Saberfront\SecondaryInventory;
 use Saberfront\Mail\EmailVerification;
 use Illuminate\Http\Request;
+use GuzzleHttp\Client;
 use Saberfront\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -55,6 +56,7 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
+            'rid' => 'required|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
         ]);
     }
@@ -69,7 +71,9 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         $data['active'] = true;
-        $_SESSION["RID"] = (json_decode(file_get_contents("https://api.roblox.com/users/get-by-username?username=".$data['name']))->Id != null) ? json_decode(file_get_contents("https://api.roblox.com/users/get-by-username?username=".$data['name']))->Id : 0;
+        $client = new Client();
+
+        $_SESSION["RID"] =  $data["rid"];
         echo $_SESSION["RID"];
        $si = SecondaryInventory::create([
             'userId' => $_SESSION["RID"],

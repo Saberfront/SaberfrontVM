@@ -116,8 +116,44 @@ class MessagesController extends Controller
             $thread->addParticipant($input['recipients']);
         }
 
-        return redirect('/messages');
+        return redirect(secure_url('/users/' + Auth::user()->id));
     }
+public function craft()
+    {
+        $input = Input::all();
+
+        $thread = Thread::create(
+            [
+                'subject' => $input['subject'],
+            ]
+        );
+
+        // Message
+        Message::create(
+            [
+                'thread_id' => $thread->id,
+                'user_id'   => Auth::user()->id,
+                'body'      => $input['message'],
+            ]
+        );
+
+        // Sender
+        Participant::create(
+            [
+                'thread_id' => $thread->id,
+                'user_id'   => Auth::user()->id,
+                'last_read' => new Carbon,
+            ]
+        );
+
+        // Recipients
+        if (Input::has('recipients')) {
+            $thread->addParticipant(User::where('name',$input["name"])->get()->id);
+        }
+
+        return redirect(secure_url('/users/' + Auth::user()->id));
+    }
+
 
     /**
      * Adds a new message to a current thread.

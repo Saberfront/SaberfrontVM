@@ -5,7 +5,7 @@
   
                 <div class="login-logo">Saberfront DB2</div>
                 <div class="login-box-body">
-                    <form  method="POST" action="{{ route('login') }}">
+                    <form  method="POST" action="{{ secure_url('/login') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }} has-feedback">

@@ -7,7 +7,7 @@
  
 </section>
 <section class='content'>
-	<form action="{{ url('/loadouts/create') }}" method="POST">
+	<form action="{{ secure_url('/loadouts/create') }}" method="POST">
 <div class="box">
 <div class="box-header">
   <h3 class="box-title">Create a new Custom Loadout</h3>

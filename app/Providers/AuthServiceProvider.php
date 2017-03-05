@@ -34,10 +34,13 @@ class AuthServiceProvider extends ServiceProvider
         Passport::pruneRevokedTokens(); //basic garbage collector
 Passport::tokensCan([
     'manage_secondary_inventories' => 'View and Manage Secondary Inventories',
-    'manage_loadouts' => 'View, use, and modify Saberfront loadouts.'
+    'manage_loadouts' => 'View, use, and modify Saberfront loadouts.',
+    'view_legions' => 'View Legions',
+    'send_legion_invites' => 'Send Legion invites to other users.'
 ]);
 if(Schema::hasTable('abilities')){
 Bouncer::allow('admin')->to('ban-users');
+Bouncer::allow('admin')->to('moderate-teams');
 }
     }
 }

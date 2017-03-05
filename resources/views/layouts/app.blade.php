@@ -1,6 +1,6 @@
 @php
-use App\CustomLoadout;
-use App\User;
+use Saberfront\CustomLoadout;
+use Saberfront\User;
 use Carbon\Carbon;
 if (Auth::user()){
 $notification_feed = FeedManager::getNotificationFeed(Auth::user()->id);
@@ -39,38 +39,45 @@ function getTimeFromActType($actType,$act){
     <title>{{ config('app.name', 'Saberfront DB2') }}</title>
   
     <!-- Styles -->
-                <script src="{{ asset('plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
+                <script src="{{ asset('plugins/jQuery/jquery-2.2.3.min.js',true) }}"></script>
 
-                <script src="{{ asset('js/jquery.toolbar.js') }}"></script>
+                <script src="{{ asset('js/jquery.toolbar.js',true) }}"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css',true) }}" rel="stylesheet">
 
-    <link href="{{ asset('css/AdminLTE.min.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/skins/_all-skins.css') }}" rel="stylesheet">
-        <script src="{{ asset('js/chartjs-plugin-annotations.min.js') }}"></script>
+    <link href="{{ asset('css/AdminLTE.min.css',true) }}" rel="stylesheet">
+        <link href="{{ asset('css/skins/_all-skins.css',true) }}" rel="stylesheet">
+        <script src="{{ asset('js/chartjs-plugin-annotations.min.js',true) }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
 <script src="//js.pusher.com/3.0/pusher.min.js"></script>
-
+<link rel="search"
+      type="application/opensearchdescription+xml"
+      title="Saberfront VM User Search"
+      href="{{asset('opensearch.xml',true)}}">
+      <link rel="search"
+      type="application/opensearchdescription+xml"
+      title="Saberfront VM Loadout Search"
+      href="{{asset('opensearch-loadouts.xml',true)}}">
 <!-- Downloaded in step 1 -->
-<script src="{{asset('js/PusherChatWidget.js')}}"></script>
-<link href="{{asset('js/pusher-chat-widget.css')}}" rel="stylesheet" />
-         <script src="{{ asset('plugins/select2/select2.full.min.js') }}"></script>
+<script src="{{asset('js/PusherChatWidget.js',true)}}"></script>
+<link href="{{asset('js/pusher-chat-widget.css',true)}}" rel="stylesheet" />
+         <script src="{{ asset('plugins/select2/select2.full.min.js',true) }}"></script>
 <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
-<script src="{{ asset('plugins/tinymce/tinymce.min.js') }}"></script>
-   <script src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
-   
-
-    <script src="{{ asset('plugins/ckeditor/adapters/jquery.js') }}"></script>
-
-      <script src="{{ asset('plugins/ckeditor/config.js') }}"></script>
+<script src="{{ asset('plugins/tinymce/tinymce.min.js',true) }}"></script>
+   <script src="{{ asset('plugins/ckeditor/ckeditor.js',true) }}"></script>
 
 
-            <link href="{{ asset('plugins/select2/select2.min.css') }}" rel="stylesheet">
-             <link href="{{ asset('css/alt/AdminLTE-select2.min.css') }}" rel="stylesheet">
-            <link href="{{ asset('js/jquery.toolbar.css') }}" rel="stylesheet">
+    <script src="{{ asset('plugins/ckeditor/adapters/jquery.js',true) }}"></script>
+
+      <script src="{{ asset('plugins/ckeditor/config.js',true) }}"></script>
+
+
+            <link href="{{ asset('plugins/select2/select2.min.css',true) }}" rel="stylesheet">
+             <link href="{{ asset('css/alt/AdminLTE-select2.min.css',true) }}" rel="stylesheet">
+            <link href="{{ asset('js/jquery.toolbar.css',true) }}" rel="stylesheet">
 
 
     <!-- Scripts -->
@@ -130,7 +137,7 @@ $(function(){
 
     @else
     <header class="main-header">
-       <a href="{{ url('/') }}" class="logo">
+       <a href="{{ secure_url('/') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>S</b>DB2</span>
       <!-- logo for regular state and mobile devices -->
@@ -153,8 +160,8 @@ $(function(){
                     <ul class="nav navbar-nav">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ secure_url('/login') }}">Login</a></li>
+                            <li><a href="{{ secure_url('/register') }}">Register</a></li>
                         @else
  <li class="dropdown notifications-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -247,15 +254,15 @@ $note_literal = (!empty($nfeed)) ? json_decode(json_encode($nfeed[0])) : array()
             <!-- Menu Footer-->
             <li class="user-footer">
               <div class="pull-left">
-                <a href="{{ url('/users/' . Auth::user()->id)}}" class="btn btn-default btn-flat">Profile</a>
+                <a href="{{ secure_url('/users/' . Auth::user()->id)}}" class="btn btn-default btn-flat">Profile</a>
               </div>
               <div class="pull-right">
-                 <a href="{{ route('logout') }}" class='btn btn-default btn-flat'
+                 <a href="{{ secure_url('/logout') }}" class='btn btn-default btn-flat'
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                             Logout
                                         </a>
-                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                         <form id="logout-form" action="{{ secure_url('/logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
                                         </form>
               </div>
@@ -286,7 +293,7 @@ $note_literal = (!empty($nfeed)) ? json_decode(json_encode($nfeed[0])) : array()
     </div><!-- /.user-panel -->
     
     <!-- Search Form (Optional) -->
-    <form action="{{ url('/users/search')}}" method="get" class="sidebar-form">
+    <form action="{{ secure_url('/users/search')}}" method="get" class="sidebar-form">
                      
       <div class="input-group">
         <input type="text" name="q" class="form-control" placeholder="Search Users...">
@@ -295,7 +302,7 @@ $note_literal = (!empty($nfeed)) ? json_decode(json_encode($nfeed[0])) : array()
         </span>
       </div>
     </form><!-- /.sidebar-form -->
-    <form action="{{ url('/loadouts/search')}}" method="get" class="sidebar-form">
+    <form action="{{ secure_url('/loadouts/search')}}" method="get" class="sidebar-form">
                      
       <div class="input-group">
         <input type="text" name="q" class="form-control" placeholder="Search Loadouts...">
@@ -314,9 +321,9 @@ $note_literal = (!empty($nfeed)) ? json_decode(json_encode($nfeed[0])) : array()
       <li class="treeview">
         <a href="#"><i class="fa fa-lock" aria-hidden="true"></i><span>Admin Interfaces</span> <i class="fa fa-angle-left pull-right"></i></a>
         <ul class="treeview-menu">
-      <li class="active"><a href="{{ url('/regimentAttributes') }}"><i class="fa fa-star-o"></i><span>All Regiment Attributes</span></a><</li>
-      <li><a href="{{ url('/inventories') }}"><i class="ion ion-ios-pricetag-outline"></i><span>Secondary Inventories</span></a></li>
-            <li><a href="{{ url('developer/dash') }}"><i class="fa fa-code"></i><span>Developer Dashboard</span></a></li>
+      <li class="active"><a href="{{ secure_url('/regimentAttributes') }}"><i class="fa fa-star-o"></i><span>All Regiment Attributes</span></a><</li>
+      <li><a href="{{ secure_url('/inventories') }}"><i class="ion ion-ios-pricetag-outline"></i><span>Secondary Inventories</span></a></li>
+            <li><a href="{{ secure_url('developer/dash') }}"><i class="fa fa-code"></i><span>Developer Dashboard</span></a></li>
 
         </ul>
       </li>
@@ -324,9 +331,10 @@ $note_literal = (!empty($nfeed)) ? json_decode(json_encode($nfeed[0])) : array()
        <li class="treeview">
         <a href="#"><i class="fa fa-unlock-alt" aria-hidden="true"></i><span>User Interfaces</span> <i class="fa fa-angle-left pull-right"></i></a>
         <ul class="treeview-menu">
-      <li class="active"><a href="{{ url('/regimentAttributes') }}"><i class="fa fa-star-o"></i><span>My Regiment's Attributes.</span></a><</li>
-
-      <li><a href="{{ url('/inventory/' . Auth::user()->tankInventoryId) }}"><i class="ion ion-ios-pricetag-outline"></i><span>Secondary Inventories</span></a></li>
+      <li class="active"><a href="{{ secure_url('/regimentAttributes') }}"><i class="fa fa-star-o"></i><span>My Regiment's Attributes.</span></a><</li>
+      <li><a href="{{ secure_url('/legions/') }}"><i class="ion ion-speakerphone"></i><span>My Legions</span></a></li>
+        
+      <li><a href="{{ secure_url('/inventory/' . Auth::user()->tankInventoryId) }}"><i class="ion ion-ios-pricetag-outline"></i><span>Secondary Inventories</span></a></li>
         </ul>
       </li>
     </ul><!-- /.sidebar-menu -->
@@ -532,15 +540,15 @@ $note_literal = (!empty($nfeed)) ? json_decode(json_encode($nfeed[0])) : array()
     @endif
 
     <!-- Scripts -->
-   <script src="{{ asset('js/bootstrap.js') }}"></script>
-      <link rel="stylesheet" href="{{ asset('plugins/iCheck/square/blue.css') }}">
-<link rel="stylesheet" href="{{ asset('plugins/datatables/dataTables.bootstrap.css') }}">
-            <script src="{{ asset('plugins/iCheck/icheck.min.js') }}"></script>
-            <script src="{{ asset('plugins/datatables/jquery.dataTables.min.js') }}"></script>
-<script src="{{ asset('plugins/datatables/dataTables.bootstrap.min.js') }}"></script>
-        <script src="{{ asset('js/app-jq.js') }}"></script>
-                <script src="{{ asset('js/app.js') }}"></script>
-        <script src="{{ asset('js/app.min.js') }}"></script>
+   <script src="{{ asset('js/bootstrap.js',true) }}"></script>
+      <link rel="stylesheet" href="{{ asset('plugins/iCheck/square/blue.css',true) }}">
+<link rel="stylesheet" href="{{ asset('plugins/datatables/dataTables.bootstrap.css',true) }}">
+            <script src="{{ asset('plugins/iCheck/icheck.min.js',true) }}"></script>
+            <script src="{{ asset('plugins/datatables/jquery.dataTables.min.js',true) }}"></script>
+<script src="{{ asset('plugins/datatables/dataTables.bootstrap.min.js',true) }}"></script>
+        <script src="{{ asset('js/app-jq.js',true) }}"></script>
+                <script src="{{ asset('js/app.js',true) }}"></script>
+        <script src="{{ asset('js/app.min.js',true) }}"></script>
 @yield('js')
 </body>
 </html>

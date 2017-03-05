@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a58e1cdacec20554e65d3a5574b95ba0",
+    "content-hash": "b54be1ba08c63a0a3c79d163f237004a",
     "packages": [
         {
             "name": "99designs/http-signatures",
@@ -161,60 +161,6 @@
             "description": "Algolia Search API Client for PHP",
             "homepage": "https://github.com/algolia/algoliasearch-client-php",
             "time": "2017-02-28T10:20:54+00:00"
-        },
-        {
-            "name": "aloha/twilio",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aloha/laravel-twilio.git",
-                "reference": "eb4817d33640a4e248222483d485f255ae891feb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aloha/laravel-twilio/zipball/eb4817d33640a4e248222483d485f255ae891feb",
-                "reference": "eb4817d33640a4e248222483d485f255ae891feb",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0",
-                "twilio/sdk": "~3.12||~4.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.9",
-                "illuminate/console": "~4||~5",
-                "illuminate/support": "~4||~5",
-                "phpunit/phpunit": "~4.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aloha\\Twilio\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hannes Van De Vreken",
-                    "email": "vandevreken.hannes@gmail.com"
-                },
-                {
-                    "name": "Travis J Ryan",
-                    "email": "travisjryan@gmail.com"
-                }
-            ],
-            "description": "Twilio API for Laravel",
-            "homepage": "https://github.com/aloha/laravel-twilio",
-            "keywords": [
-                "ivr",
-                "laravel",
-                "sms",
-                "twilio"
-            ],
-            "time": "2016-07-23T08:49:47+00:00"
         },
         {
             "name": "asvae/laravel-api-tester",
@@ -1394,6 +1340,45 @@
                 "markdown"
             ],
             "time": "2017-01-01T13:30:44+00:00"
+        },
+        {
+            "name": "gstt/laravel-achievements",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gstt/laravel-achievements.git",
+                "reference": "37d7e14edeb42976b4115f0ffdb54f266e04af64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gstt/laravel-achievements/zipball/37d7e14edeb42976b4115f0ffdb54f266e04af64",
+                "reference": "37d7e14edeb42976b4115f0ffdb54f266e04af64",
+                "shasum": ""
+            },
+            "require": {
+                "ramsey/uuid": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/Migrations"
+                ],
+                "psr-0": {
+                    "Gstt\\Achievements\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gabriel Simonetti",
+                    "email": "simonettigo@gmail.com"
+                }
+            ],
+            "description": "Achievements for Laravel 5.3+",
+            "time": "2017-02-21T15:35:45+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3151,6 +3136,54 @@
                 }
             ],
             "time": "2016-06-20T20:53:12+00:00"
+        },
+        {
+            "name": "mpociot/teamwork",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpociot/teamwork.git",
+                "reference": "d99a2275ca556befee8dcb18fe7a8acebd2d072f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpociot/teamwork/zipball/d99a2275ca556befee8dcb18fe7a8acebd2d072f",
+                "reference": "d99a2275ca556befee8dcb18fe7a8acebd2d072f",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.4",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "illuminate/database": "~5.0",
+                "mockery/mockery": "dev-master",
+                "orchestra/testbench": "3.4.*@dev",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mpociot\\Teamwork": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "m.pociot@gmail.com"
+                }
+            ],
+            "description": "User to Team associations for the Laravel 5 Framework",
+            "homepage": "http://github.com/mpociot/teamwork",
+            "keywords": [
+                "Invite",
+                "Teams"
+            ],
+            "time": "2017-01-29T20:41:30+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -5095,56 +5128,6 @@
             "time": "2016-09-20T12:50:39+00:00"
         },
         {
-            "name": "twilio/sdk",
-            "version": "4.12.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twilio/twilio-php.git",
-                "reference": "6e4b45fc3f8b56c088dfecf4bced76c712cb6182"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/6e4b45fc3f8b56c088dfecf4bced76c712cb6182",
-                "reference": "6e4b45fc3f8b56c088dfecf4bced76c712cb6182",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.1"
-            },
-            "require-dev": {
-                "mockery/mockery": ">=0.7.2",
-                "phpunit/phpunit": "4.5.*"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "Services/Twilio.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kevin Burke",
-                    "email": "kevin@twilio.com"
-                },
-                {
-                    "name": "Kyle Conroy",
-                    "email": "kyle+pear@twilio.com"
-                }
-            ],
-            "description": "A PHP wrapper for Twilio's API",
-            "homepage": "http://github.com/twilio/twilio-php",
-            "keywords": [
-                "api",
-                "sms",
-                "twilio"
-            ],
-            "time": "2016-09-01T18:42:52+00:00"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -5351,6 +5334,60 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "aloha/twilio",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aloha/laravel-twilio.git",
+                "reference": "eb4817d33640a4e248222483d485f255ae891feb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aloha/laravel-twilio/zipball/eb4817d33640a4e248222483d485f255ae891feb",
+                "reference": "eb4817d33640a4e248222483d485f255ae891feb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "twilio/sdk": "~3.12||~4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.9",
+                "illuminate/console": "~4||~5",
+                "illuminate/support": "~4||~5",
+                "phpunit/phpunit": "~4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aloha\\Twilio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hannes Van De Vreken",
+                    "email": "vandevreken.hannes@gmail.com"
+                },
+                {
+                    "name": "Travis J Ryan",
+                    "email": "travisjryan@gmail.com"
+                }
+            ],
+            "description": "Twilio API for Laravel",
+            "homepage": "https://github.com/aloha/laravel-twilio",
+            "keywords": [
+                "ivr",
+                "laravel",
+                "sms",
+                "twilio"
+            ],
+            "time": "2016-07-23T08:49:47+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
@@ -6668,6 +6705,56 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "4.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "6e4b45fc3f8b56c088dfecf4bced76c712cb6182"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/6e4b45fc3f8b56c088dfecf4bced76c712cb6182",
+                "reference": "6e4b45fc3f8b56c088dfecf4bced76c712cb6182",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "mockery/mockery": ">=0.7.2",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Services/Twilio.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Burke",
+                    "email": "kevin@twilio.com"
+                },
+                {
+                    "name": "Kyle Conroy",
+                    "email": "kyle+pear@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2016-09-01T18:42:52+00:00"
         },
         {
             "name": "webmozart/assert",

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-use App\User;
+use Saberfront\User;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -25,6 +25,7 @@ Route::delete('inventory/{id}','SecondaryInventoryController@destroy');
 // update existing task
 
 Route::post('inventory','SecondaryInventoryController@store');
+Route::get('loadouts/all','LoadoutController@apiIndex')->middleware('scope:manage_loadouts');
 
 Route::get('/users/{id}/loadouts/{loadoutid}','LoadoutController@apiShow')->middleware('scope:manage_loadouts');
 Route::get('/users/{userid}/loadouts/{loadoutid}','LoadoutController@apiShowWithRID')->middleware('scope:manage_loadouts');
@@ -32,3 +33,4 @@ Route::get('/user/getByRID/{RID}',function($RID){
     return json_encode(array("id" => User::where("robloxUserId",$RID)->get()[0]->id));
 
 });
+Route::get('/legions/{userId}',"TeamController@apiShow")->middleware("view_legions");
